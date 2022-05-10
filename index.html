@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css2?family=Jua&family=Oi&family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://webfontworld.github.io/BMJua/BMJua.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <style>
       * {
@@ -31,7 +35,8 @@
         display: flex;
       }
       .header__left a {
-        color: #000;
+        color: #fff;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
       }
       .header__left .menu_icon {
         background-image: url(assets/img/menu.png);
@@ -57,7 +62,26 @@
         line-height: 1.2;
         background: #fbbf2d;
         z-index: -1;
-        /* padding: 1.85em 0; */
+      }
+      .title_name {
+        margin-top: 7vw;
+        color: #fb450c;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+      }
+      .title_photo {
+        display: flex;
+        justify-content: center;
+      }
+      .title_photo p {
+        color: #fff;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+      }
+      .title_photo .photo {
+        background-image: url(assets/img/faceimg.svg);
+        background-position: center;
+        background-size: cover;
+        width: 20vh;
+        height: 20vh;
       }
       .title div:first-child .title__logo1 {
         position: absolute;
@@ -91,11 +115,6 @@
         height: 130px;
       }
 
-      .title div:nth-child(2) p {
-        color: #fbbf2d;
-        color: #fb450c;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
-      }
       .title__img {
         position: absolute;
         left: 0;
@@ -107,6 +126,18 @@
         background-repeat: no-repeat;
         width: 420px;
         height: 420px;
+      }
+      .title__desc {
+        font-size: 1rem;
+        display: flex;
+        justify-content: space-around;
+        font-family: "BMJua";
+        font-weight: bold;
+        margin-top: 4vw;
+      }
+      .title__desc div {
+        font-size: 1vw;
+        text-align: left;
       }
 
       .portmove {
@@ -145,6 +176,13 @@
           display: none;
         }
       }
+
+      @media (max-width: 600px) {
+        .title__desc .aaa {
+          width: 100%;
+          text-align: center;
+        }
+      }
     </style>
   </head>
   <body>
@@ -170,10 +208,20 @@
               <div class="title__logo2"></div>
               <div class="title__logo3"></div>
             </div>
-            <div>
+            <div class="title_photo">
               <p>WORLD</p>
+              <div class="photo"></div>
             </div>
             <div class="title__img"></div>
+            <div class="title__desc">
+              <div class="aaa">
+                <p>A NEW PRONTEND</p>
+                <p>WEB DEVELOPER</p>
+                <p>CODING & CREATIVE</p>
+                <p>HARD WORKING</p>
+              </div>
+              <div></div>
+            </div>
           </div>
           <div class="portmove">
             <div class="pm01"></div>
