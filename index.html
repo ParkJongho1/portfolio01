@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTFOLIO</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jua&family=Oi&family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      /* body {
+        background: #fbbf2d;
+      } */
+      #header {
+        width: 100%;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        font-family: "Oi";
+        font-size: 1.6vw;
+        padding: 1vw;
+      }
+      .header__left {
+        display: flex;
+      }
+      .header__left a {
+        color: #000;
+      }
+      .header__left .menu_icon {
+        background-image: url(assets/img/menu.png);
+        width: 64px;
+        height: 64px;
+        display: none;
+      }
+      .header__right a {
+        color: #fb450c;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        text-align: right;
+      }
+
+      .title {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100vh;
+        font-family: "Oi";
+        text-align: center;
+        font-size: 8vw;
+        position: relative;
+        line-height: 1.2;
+        background: #fbbf2d;
+        z-index: -1;
+        /* padding: 1.85em 0; */
+      }
+      .title div:first-child .title__logo1 {
+        position: absolute;
+        left: 21%;
+        top: 22%;
+        background-image: url(assets/img/ttlogo01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 120px;
+        height: 120px;
+      }
+      .title div:first-child .title__logo2 {
+        position: absolute;
+        right: 29%;
+        top: 24%;
+        background-image: url(assets/img/ttlogo02.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100px;
+        height: 100px;
+      }
+      .title div:first-child .title__logo3 {
+        position: absolute;
+        right: 22%;
+        top: 8%;
+        background-image: url(assets/img/ttlogo03.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 130px;
+        height: 130px;
+      }
+
+      .title div:nth-child(2) p {
+        color: #fbbf2d;
+        color: #fb450c;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+      }
+      .title__img {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(assets/img/title01.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 420px;
+        height: 420px;
+      }
+
+      .portmove {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 3px solid #000;
+        border-bottom: 3px solid #000;
+        background: #fff;
+      }
+      .portmove .pm01,
+      .portmove .pm02,
+      .portmove .pm03,
+      .portmove .pm04 {
+        background-image: url(assets/img/portmoving.png);
+        width: 40vh;
+        height: 10vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      .about {
+        height: 1000px;
+        background: rgb(168, 166, 166);
+      }
+
+      @media (max-width: 1000px) {
+        .header__left .menu_icon {
+          display: block;
+        }
+        .header__left a,
+        .header__right a {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrap">
+      <header id="header">
+        <div class="header__left">
+          <a href="#">PORTFOLIO</a>
+          <div class="menu_icon"></div>
+        </div>
+        <div class="header__right"><a href="#">CONTACT</a></div>
+      </header>
+      <!-- //header -->
+
+      <!-- <nav></nav> -->
+      <!-- nav -->
+
+      <main id="main">
+        <section id="cont__title">
+          <div class="title">
+            <div class="title_name">
+              <p>PORTFOLIO</p>
+              <div class="title__logo1"></div>
+              <div class="title__logo2"></div>
+              <div class="title__logo3"></div>
+            </div>
+            <div>
+              <p>WORLD</p>
+            </div>
+            <div class="title__img"></div>
+          </div>
+          <div class="portmove">
+            <div class="pm01"></div>
+            <div class="pm02"></div>
+            <div class="pm03"></div>
+            <div class="pm04"></div>
+          </div>
+        </section>
+        <!-- //title -->
+
+        <section id="cont__about">
+          <div class="about"></div>
+        </section>
+        <!-- about -->
+      </main>
+      <footer></footer>
+    </div>
+  </body>
+</html>
