@@ -26,28 +26,31 @@
         width: 100%;
         position: fixed;
         display: flex;
+        align-items: center;
         justify-content: space-between;
         font-family: "Oi";
         font-size: 1.6vw;
         padding: 1vw;
-      }
-      .header__left {
-        display: flex;
+        z-index: 99999;
       }
       .header__left a {
         color: #fff;
         text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
       }
-      .header__left .menu_icon {
-        background-image: url(assets/img/menu.png);
-        width: 64px;
-        height: 64px;
-        display: none;
+      .header__right {
+        display: flex;
       }
       .header__right a {
         color: #fb450c;
         text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
         text-align: right;
+      }
+      .header__right .menu_icon {
+        background-image: url(assets/img/menu.png);
+        width: 64px;
+        height: 64px;
+        margin-bottom: 2vw;
+        display: none;
       }
 
       .title {
@@ -131,7 +134,7 @@
         }
       }
 
-      .title__img {
+      .title__img .ttimg01 {
         position: absolute;
         left: 0;
         right: 0;
@@ -140,8 +143,83 @@
         background-image: url(assets/img/title01.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 23vmax;
-        height: 23vmax;
+        width: 23vw;
+        height: 23vw;
+      }
+      .title__img .ttimg02 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(assets/img/title02.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 23vw;
+        height: 23vw;
+      }
+      .title__img .ttimg03 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(assets/img/title03.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 23vw;
+        height: 23vw;
+      }
+      .title__img .ttimg04 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(assets/img/title04.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 23vw;
+        height: 23vw;
+      }
+      .title__img .ttimg05 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(assets/img/title05.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 23vw;
+        height: 23vw;
+      }
+      .title__img .ttimg06 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(assets/img/title06.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 23vw;
+        height: 23vw;
+      }
+      .title__img .ttimg07 {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background-image: url(assets/img/title07.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 23vw;
+        height: 23vw;
+      }
+      .title__img .hide {
+        opacity: 0;
       }
       .title__desc {
         font-size: 1rem;
@@ -158,27 +236,34 @@
 
       .portmove {
         width: 100%;
-        height: 40%;
+        height: 7vmax;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        flex-wrap: nowrap;
         border-top: 3px solid #000;
         border-bottom: 3px solid #000;
         background: #fff;
         position: relative;
         overflow: hidden;
       }
+      .portmove .movies {
+        display: flex;
+        align-items: center;
+      }
       .portmove .moving {
         background-image: url(assets/img/portmoving.svg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        width: 5.5vw;
-        height: 5.5vw;
+        width: 5vmax;
+        height: 5vmax;
+        animation: rotateIcon 10s linear infinite;
       }
       .portmove p {
         font-family: "Oi";
-        font-size: 1.4vw;
+        font-size: 1.8vmax;
+        padding: 3px 20px;
+        line-height: 0;
       }
 
       .about {
@@ -187,22 +272,36 @@
       }
 
       @media (max-width: 1000px) {
-        .header__left .menu_icon {
-          display: block;
+        .header__left {
+          font-size: 3vw;
+          padding: 2vw;
         }
-        .header__left a,
         .header__right a {
           display: none;
         }
-        /* .title {
-          font-size: 6vmax;
-        } */
+        .header__right .menu_icon {
+          display: block;
+        }
+        .title__img {
+          width: 43vw;
+          height: 43vw;
+        }
+        .title {
+          font-size: 8vw;
+        }
       }
 
       @media (max-width: 600px) {
+        .header__left {
+          display: none;
+        }
         .title__desc .aaa {
           width: 100%;
           text-align: center;
+        }
+        .title__img {
+          width: 300px;
+          height: 300px;
         }
       }
     </style>
@@ -212,9 +311,11 @@
       <header id="header">
         <div class="header__left">
           <a href="#">PORTFOLIO</a>
+        </div>
+        <div class="header__right">
+          <a href="#">CONTACT</a>
           <div class="menu_icon"></div>
         </div>
-        <div class="header__right"><a href="#">CONTACT</a></div>
       </header>
       <!-- //header -->
 
@@ -238,7 +339,15 @@
                 <div class="photo"></div>
               </div>
             </div>
-            <div class="title__img"></div>
+            <div class="title__img">
+              <div class="ttimg01"></div>
+              <div class="ttimg02 hide"></div>
+              <div class="ttimg03 hide"></div>
+              <div class="ttimg04 hide"></div>
+              <div class="ttimg05 hide"></div>
+              <div class="ttimg06 hide"></div>
+              <div class="ttimg07 hide"></div>
+            </div>
             <div class="title__desc">
               <div class="aaa">
                 <p>A NEW PRONTEND</p>
@@ -250,16 +359,30 @@
             </div>
           </div>
           <div class="portmove">
-            <div class="moving"></div>
-            <p>PORTFOLIO</p>
-            <div class="moving"></div>
-            <p>PORTFOLIO</p>
-            <div class="moving"></div>
-            <p>PORTFOLIO</p>
-            <div class="moving"></div>
-            <p>PORTFOLIO</p>
-            <div class="moving"></div>
-            <p>PORTFOLIO</p>
+            <div class="movies">
+              <div class="moving"></div>
+              <p>PORTFOLIO</p>
+            </div>
+            <div class="movies">
+              <div class="moving"></div>
+              <p>PORTFOLIO</p>
+            </div>
+            <div class="movies">
+              <div class="moving"></div>
+              <p>PORTFOLIO</p>
+            </div>
+            <div class="movies">
+              <div class="moving"></div>
+              <p>PORTFOLIO</p>
+            </div>
+            <div class="movies">
+              <div class="moving"></div>
+              <p>PORTFOLIO</p>
+            </div>
+            <div class="movies">
+              <div class="moving"></div>
+              <p>PORTFOLIO</p>
+            </div>
           </div>
         </section>
         <!-- //title -->
@@ -272,4 +395,6 @@
       <footer></footer>
     </div>
   </body>
+
+  <script></script>
 </html>
