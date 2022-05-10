@@ -36,7 +36,7 @@
       }
       .header__left a {
         color: #fff;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
       }
       .header__left .menu_icon {
         background-image: url(assets/img/menu.png);
@@ -46,7 +46,7 @@
       }
       .header__right a {
         color: #fb450c;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
         text-align: right;
       }
 
@@ -66,53 +66,69 @@
       .title_name {
         margin-top: 7vw;
         color: #fb450c;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
       }
       .title_photo {
         display: flex;
         justify-content: center;
       }
-      .title_photo p {
-        color: #fff;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+
+      .title .title01 {
+        position: relative;
       }
-      .title_photo .photo {
-        background-image: url(assets/img/faceimg.svg);
-        background-position: center;
-        background-size: cover;
-        width: 20vh;
-        height: 20vh;
-      }
-      .title div:first-child .title__logo1 {
+      .title .title01 .title__logo1 {
         position: absolute;
         left: 21%;
-        top: 22%;
-        background-image: url(assets/img/ttlogo01.png);
+        bottom: 70%;
+        background-image: url(assets/img/ttlogo01.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 120px;
-        height: 120px;
+        width: 7vw;
+        height: 7vw;
       }
-      .title div:first-child .title__logo2 {
+      .title .title01 .title__logo2 {
         position: absolute;
         right: 29%;
-        top: 24%;
-        background-image: url(assets/img/ttlogo02.png);
+        bottom: 90%;
+        background-image: url(assets/img/ttlogo02.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 100px;
-        height: 100px;
+        width: 5vw;
+        height: 5vw;
       }
-      .title div:first-child .title__logo3 {
+      .title .title01 .title__logo3 {
         position: absolute;
         right: 22%;
-        top: 8%;
-        background-image: url(assets/img/ttlogo03.png);
+        bottom: 120%;
+        background-image: url(assets/img/ttlogo03.svg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        width: 130px;
-        height: 130px;
+        width: 8vw;
+        height: 8vw;
+      }
+
+      .title_photo .title02 {
+        position: relative;
+        color: #fff;
+        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
+      }
+      .title_photo .title02 .photo {
+        background-image: url(assets/img/faceimg01.svg);
+        background-position: center;
+        background-size: cover;
+        width: 10vw;
+        height: 10vw;
+        position: absolute;
+        top: -60%;
+        right: -13%;
+        animation: rotateIcon 10s linear infinite;
+        transform-origin: 50% 50%;
+      }
+      @keyframes rotateIcon {
+        100% {
+          transform: rotate(-360deg);
+        }
       }
 
       .title__img {
@@ -121,11 +137,11 @@
         right: 0;
         bottom: 0;
         margin: auto;
-        background-image: url(assets/img/title01.png);
+        background-image: url(assets/img/title01.svg);
         background-size: cover;
         background-repeat: no-repeat;
-        width: 420px;
-        height: 420px;
+        width: 23vmax;
+        height: 23vmax;
       }
       .title__desc {
         font-size: 1rem;
@@ -142,24 +158,27 @@
 
       .portmove {
         width: 100%;
-        height: 120px;
+        height: 40%;
         display: flex;
         align-items: center;
         justify-content: space-between;
         border-top: 3px solid #000;
         border-bottom: 3px solid #000;
         background: #fff;
+        position: relative;
+        overflow: hidden;
       }
-      .portmove .pm01,
-      .portmove .pm02,
-      .portmove .pm03,
-      .portmove .pm04 {
-        background-image: url(assets/img/portmoving.png);
-        width: 40vh;
-        height: 10vh;
-        background-size: cover;
+      .portmove .moving {
+        background-image: url(assets/img/portmoving.svg);
         background-repeat: no-repeat;
         background-position: center;
+        background-size: cover;
+        width: 5.5vw;
+        height: 5.5vw;
+      }
+      .portmove p {
+        font-family: "Oi";
+        font-size: 1.4vw;
       }
 
       .about {
@@ -175,6 +194,9 @@
         .header__right a {
           display: none;
         }
+        /* .title {
+          font-size: 6vmax;
+        } */
       }
 
       @media (max-width: 600px) {
@@ -203,14 +225,18 @@
         <section id="cont__title">
           <div class="title">
             <div class="title_name">
-              <p>PORTFOLIO</p>
-              <div class="title__logo1"></div>
-              <div class="title__logo2"></div>
-              <div class="title__logo3"></div>
+              <div class="title01">
+                PORTFOLIO
+                <div class="title__logo1"></div>
+                <div class="title__logo2"></div>
+                <div class="title__logo3"></div>
+              </div>
             </div>
             <div class="title_photo">
-              <p>WORLD</p>
-              <div class="photo"></div>
+              <div class="title02">
+                WORLD
+                <div class="photo"></div>
+              </div>
             </div>
             <div class="title__img"></div>
             <div class="title__desc">
@@ -224,10 +250,16 @@
             </div>
           </div>
           <div class="portmove">
-            <div class="pm01"></div>
-            <div class="pm02"></div>
-            <div class="pm03"></div>
-            <div class="pm04"></div>
+            <div class="moving"></div>
+            <p>PORTFOLIO</p>
+            <div class="moving"></div>
+            <p>PORTFOLIO</p>
+            <div class="moving"></div>
+            <p>PORTFOLIO</p>
+            <div class="moving"></div>
+            <p>PORTFOLIO</p>
+            <div class="moving"></div>
+            <p>PORTFOLIO</p>
           </div>
         </section>
         <!-- //title -->
