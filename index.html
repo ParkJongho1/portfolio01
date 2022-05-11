@@ -5,318 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PORTFOLIO</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jua&family=Oi&family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://webfontworld.github.io/BMJua/BMJua.css"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Oi&family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500;1,800;1,900&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Luckiest+Guy&family=Oi&family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://webfontworld.github.io/BMJua/BMJua.css" rel="stylesheet"/>
     <link rel="stylesheet" href="assets/css/reset.css" />
     <style>
       * {
         margin: 0;
         padding: 0;
+        font-family: "Oi";
       }
-      /* body {
-        background: #fbbf2d;
-      } */
+      #wrap {
+        margin: 0 auto;
+      }
       #header {
-        width: 100%;
         position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
         display: flex;
-        align-items: center;
         justify-content: space-between;
-        font-family: "Oi";
-        font-size: 1.6vw;
-        padding: 1vw;
-        z-index: 99999;
+        font-size: 23px;
+        padding: 10px 15px;
+        z-index: 600;
       }
-      .header__left a {
+      #header a:nth-child(1) {
         color: #fff;
-        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
       }
-      .header__right {
-        display: flex;
+      #header a:nth-child(2) {
+        color: #FB450C;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
       }
-      .header__right a {
-        color: #fb450c;
-        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
-        text-align: right;
-      }
-      .header__right .menu_icon {
-        background-image: url(assets/img/menu.png);
-        width: 64px;
-        height: 64px;
-        margin-bottom: 2vw;
-        display: none;
-      }
+      /* //header  */
 
-      .title {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+
+      #section1 {
+        background: #FBBF2D;
         height: 100vh;
-        font-family: "Oi";
-        text-align: center;
-        font-size: 8vw;
-        position: relative;
-        line-height: 1.2;
-        background: #fbbf2d;
-        z-index: -1;
-      }
-      .title_name {
-        margin-top: 7vw;
-        color: #fb450c;
-        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
-      }
-      .title_photo {
-        display: flex;
-        justify-content: center;
-      }
-
-      .title .title01 {
         position: relative;
       }
-      .title .title01 .title__logo1 {
-        position: absolute;
-        left: 21%;
-        bottom: 70%;
-        background-image: url(assets/img/ttlogo01.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 7vw;
-        height: 7vw;
-      }
-      .title .title01 .title__logo2 {
-        position: absolute;
-        right: 29%;
-        bottom: 90%;
-        background-image: url(assets/img/ttlogo02.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 5vw;
-        height: 5vw;
-      }
-      .title .title01 .title__logo3 {
-        position: absolute;
-        right: 22%;
-        bottom: 120%;
-        background-image: url(assets/img/ttlogo03.svg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 8vw;
-        height: 8vw;
-      }
-
-      .title_photo .title02 {
-        position: relative;
-        color: #fff;
-        text-shadow: -3px 0px #000, 0px 3px #000, 3px 0px #000, 0px -3px #000;
-      }
-      .title_photo .title02 .photo {
-        background-image: url(assets/img/faceimg01.svg);
-        background-position: center;
-        background-size: cover;
-        width: 10vw;
-        height: 10vw;
-        position: absolute;
-        top: -60%;
-        right: -13%;
-        animation: rotateIcon 10s linear infinite;
-        transform-origin: 50% 50%;
-      }
-      @keyframes rotateIcon {
-        100% {
-          transform: rotate(-360deg);
-        }
-      }
-
-      .title__img .ttimg01 {
+      #section1 img {
         position: absolute;
         left: 0;
         right: 0;
         bottom: 0;
         margin: auto;
-        background-image: url(assets/img/title01.svg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        width: 23vw;
-        height: 23vw;
       }
-      .title__img .hide {
-        opacity: 0;
-      }
-      .title__desc {
-        font-size: 1rem;
-        display: flex;
-        justify-content: space-around;
-        font-family: "BMJua";
-        font-weight: bold;
-        margin-top: 4vw;
-      }
-      .title__desc div {
-        font-size: 1vw;
-        text-align: left;
-      }
-
-      .portmove {
-        width: 100%;
-        height: 7vmax;
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        border-top: 3px solid #000;
-        border-bottom: 3px solid #000;
-        background: #fff;
+      .sec1 {
+        line-height: 0.9;
+        text-align: center;
         position: relative;
-        overflow: hidden;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
       }
-      .portmove .movies {
-        display: flex;
-        align-items: center;
+      .sec1 h1 {
+        font-size: 8vw;
       }
-      .portmove .moving {
-        background-image: url(assets/img/portmoving.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        width: 5vmax;
-        height: 5vmax;
-        animation: rotateIcon 10s linear infinite;
+      .sec1 h1 strong {
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        color: #FB450C;
+        font-weight: 500;
+        
       }
-      .portmove p {
-        font-family: "Oi";
-        font-size: 1.8vmax;
-        padding: 3px 20px;
-        line-height: 0;
+      .sec1 h1 em {
+        color: #fff;
+        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        font-weight: 500;
       }
 
-      .about {
-        height: 1000px;
-        background: rgb(168, 166, 166);
-      }
 
-      @media (max-width: 1000px) {
-        .header__left {
-          font-size: 3vw;
-          padding: 2vw;
-        }
-        .header__right a {
-          display: none;
-        }
-        .header__right .menu_icon {
-          display: block;
-        }
-        .title__img {
-          width: 43vw;
-          height: 43vw;
-        }
-        .title {
-          font-size: 8vw;
+      @media (max-width: 960px){
+      
+      }
+      @media (max-width: 768px){
+        .sec1 h1 {
+          font-size: 11vw;
         }
       }
-
-      @media (max-width: 600px) {
-        .header__left {
-          display: none;
-        }
-        .title__desc .aaa {
-          width: 100%;
-          text-align: center;
-        }
-        .title__img {
-          width: 300px;
-          height: 300px;
+      @media (max-width: 480px){
+        .sec1 h1 {
+          font-size: 11vw;
         }
       }
+     
     </style>
   </head>
   <body>
     <div id="wrap">
       <header id="header">
-        <div class="header__left">
-          <a href="#">PORTFOLIO</a>
-        </div>
-        <div class="header__right">
-          <a href="#">CONTACT</a>
-          <div class="menu_icon"></div>
-        </div>
+        <a href="#">PORTFOLIO</a>
+        <a href="#">ABOUT</a>
       </header>
-      <!-- //header -->
-
-      <!-- <nav></nav> -->
-      <!-- nav -->
-
-      <main id="main">
-        <section id="cont__title">
-          <div class="title">
-            <div class="title_name">
-              <div class="title01">
-                PORTFOLIO
-                <div class="title__logo1"></div>
-                <div class="title__logo2"></div>
-                <div class="title__logo3"></div>
-              </div>
-            </div>
-            <div class="title_photo">
-              <div class="title02">
-                WORLD
-                <div class="photo"></div>
-              </div>
-            </div>
-            <div class="title__img">
-              <div class="ttimg01"></div>
-            </div>
-            <div class="title__desc">
-              <div class="aaa">
-                <p>A NEW PRONTEND</p>
-                <p>WEB DEVELOPER</p>
-                <p>CODING & CREATIVE</p>
-                <p>HARD WORKING</p>
-              </div>
-              <div></div>
-            </div>
+      <nav></nav>
+      <main>
+        <section id="section1">
+          <div class="sec1">
+            <h1>
+              <strong>PORTFOLIO</strong>
+              <em>WORLD</em>
+            </h1>
           </div>
-          <div class="portmove">
-            <div class="movies">
-              <div class="moving"></div>
-              <p>PORTFOLIO</p>
-            </div>
-            <div class="movies">
-              <div class="moving"></div>
-              <p>PORTFOLIO</p>
-            </div>
-            <div class="movies">
-              <div class="moving"></div>
-              <p>PORTFOLIO</p>
-            </div>
-            <div class="movies">
-              <div class="moving"></div>
-              <p>PORTFOLIO</p>
-            </div>
-            <div class="movies">
-              <div class="moving"></div>
-              <p>PORTFOLIO</p>
-            </div>
-            <div class="movies">
-              <div class="moving"></div>
-              <p>PORTFOLIO</p>
-            </div>
-          </div>
+          <img src="assets/img/title01.svg" alt="title01">
         </section>
-        <!-- //title -->
-
-        <section id="cont__about">
-          <div class="about"></div>
-        </section>
-        <!-- about -->
       </main>
       <footer></footer>
     </div>
   </body>
-
-  <script></script>
 </html>
