@@ -67,7 +67,19 @@
         text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
         color: #FB450C;
         font-weight: 500;
-        
+        position: relative;
+      }
+      .sec1 h1 strong::before {
+        content: '';
+        background-image: url(assets/img/ttlogo01.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 8vw;
+        height: 8vw;
+        position: absolute;
+        bottom: 70%;
+        left: 7%;
       }
       .sec1 h1 em {
         color: #fff;
@@ -85,8 +97,16 @@
         }
       }
       @media (max-width: 480px){
-        .sec1 h1 {
-          font-size: 11vw;
+        #header {
+          font-size: 15px;
+        }
+        .sec1 h1 strong::before {
+          width: 15vw;
+          height: 15vw;
+        }
+        #section1 img {
+          width: 400px;
+          height: 400px;
         }
       }
      
