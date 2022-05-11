@@ -51,12 +51,13 @@
         right: 0;
         bottom: 0;
         margin: auto;
+        height: 55%;
       }
       .sec1 {
         line-height: 0.9;
         text-align: center;
         position: relative;
-        top: 40%;
+        top: 43%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
@@ -75,25 +76,71 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        width: 8vw;
-        height: 8vw;
+        width: 7vw;
+        height: 7vw;
         position: absolute;
         bottom: 70%;
         left: 7%;
       }
-      .sec1 h1 em {
+      .sec1 h1 strong::after {
+        content: '';
+        background-image: url(assets/img/ttlogo02.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 9vw;
+        height: 9vw;
+        position: absolute;
+        bottom: 90%;
+        right: 7%;
+      }
+      .sec1 h1 p {
         color: #fff;
         text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
         font-weight: 500;
+        position: relative;
+      }
+      .sec1 h1 p::before {
+        content: '';
+        background-image: url(assets/img/faceimg01.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 10vw;
+        height: 10vw;
+        position: absolute;
+        bottom: 22%;
+        right: 22%;
+        animation: rotateIcon 10s linear infinite;
+        transform-origin: 50% 50%;
+      }
+      @keyframes rotateIcon {
+        100% {
+          transform: rotate(-360deg);
+        }
       }
 
-
-      @media (max-width: 960px){
+      @media (max-width: 1280px){
       
       }
       @media (max-width: 768px){
         .sec1 h1 {
           font-size: 11vw;
+        }
+        .sec1 h1 strong::before {
+          width: 13vw;
+          height: 13vw;
+        }
+        .sec1 h1 strong::after {
+          width: 16vw;
+          height: 16vw;
+        }
+        .sec1 h1 p::before {
+          bottom: 300%;
+          left: 40%;
+          width: 20vw;
+          height: 20vw;
+
         }
       }
       @media (max-width: 480px){
@@ -104,9 +151,14 @@
           width: 15vw;
           height: 15vw;
         }
-        #section1 img {
-          width: 400px;
-          height: 400px;
+        .sec1 h1 strong::after {
+         display: none;
+        }
+        .sec1 h1 p::before {
+          left: 38%;
+          width: 30vw;
+          height: 30vw;
+
         }
       }
      
@@ -124,7 +176,7 @@
           <div class="sec1">
             <h1>
               <strong>PORTFOLIO</strong>
-              <em>WORLD</em>
+              <p>WORLD</p>
             </h1>
           </div>
           <img src="assets/img/title01.svg" alt="title01">
