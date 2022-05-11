@@ -46,6 +46,12 @@
         color: #fb450c;
         -webkit-text-stroke: 1px #000;
       }
+      #header .menu {
+        background-image: url(assets/img/menu.png);
+        width: 64px;
+        height: 64px;
+        display: none;
+      }
       /* //header  */
 
       /* section01 */
@@ -73,9 +79,9 @@
       }
       .sec1 h1 {
         font-size: 10vw;
+        -webkit-text-stroke: 3px #000;
       }
       .sec1 h1 strong {
-        -webkit-text-stroke: 3px #000;
         color: #fb450c;
         font-weight: 500;
         position: relative;
@@ -106,13 +112,12 @@
       }
       .sec1 h1 p {
         color: #fff;
-        -webkit-text-stroke: 3px #000;
         font-weight: 500;
         position: relative;
       }
       .sec1 h1 p::before {
         content: "";
-        background-image: url(assets/img/faceimg01.svg);
+        background-image: url(assets/img/facebg.svg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -123,6 +128,19 @@
         right: 13%;
         animation: rotateIcon 10s linear infinite;
         transform-origin: 50% 50%;
+      }
+      .sec1 h1 p::after {
+        content: "";
+        background-image: url(assets/img/face01.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 8vw;
+        height: 8vw;
+        position: absolute;
+        z-index: 600;
+        bottom: 43%;
+        right: 15.5%;
       }
       @keyframes rotateIcon {
         100% {
@@ -139,17 +157,61 @@
       .sec02 {
       }
       .sec02 .moveport {
-        height: 100px;
+        width: 100%;
+        height: 6vmax;
+        position: relative;
+        overflow: hidden;
         background-color: #fff;
-        border-top: 3px solid #000;
-        border-bottom: 3px solid #000;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
+        display: flex;
+        font-family: "Oi";
+        padding: 10px 10px;
+      }
+      .sec02 .moveport .moving {
+        display: flex;
+        align-items: center;
+      }
+      .sec02 .moveport .moving .portlogo {
+        background-image: url(assets/img/portmoving.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 4.5vmax;
+        height: 4.5vmax;
+      }
+      .sec02 .moveport .moving .porttext {
+        font-size: 1.5vmax;
+        padding: 20px;
+        margin-top: 5px;
+      }
+      .sec02 .about {
+        margin-top: 14vw;
+        text-align: center;
+        font-family: "Oi";
+        font-weight: 300;
+      }
+      .sec02 .about h3 {
+        font-size: 7vw;
+        
+      }
+      .sec02 .about .about__info01 {
       }
 
+
+
+
+
+
+
+
+      /* //반응형(media) */
       @media (max-width: 1280px) {
       }
       @media (max-width: 768px) {
         .sec1 h1 {
           font-size: 11vw;
+        -webkit-text-stroke: 2px #000;
         }
         .sec1 h1 strong::before {
           width: 13vw;
@@ -164,6 +226,12 @@
           width: 20vw;
           height: 20vw;
         }
+        .sec1 h1 p::after {
+          bottom: 270%;
+          left: 74.3%;
+          width: 12vw;
+          height: 12vw;
+        }
       }
       @media (max-width: 480px) {
         #header {
@@ -173,12 +241,17 @@
           width: 15vw;
           height: 15vw;
         }
-
         .sec1 h1 p::before {
           bottom: 270%;
           left: 60%;
           width: 30vw;
           height: 30vw;
+        }
+        .sec1 h1 p::after {
+          bottom: 331%;
+          left: 66.4%;
+          width: 18vw;
+          height: 18vw;
         }
       }
     </style>
@@ -188,6 +261,7 @@
       <header id="header">
         <a href="#">PORTFOLIO</a>
         <a href="#">ABOUT</a>
+        <div class="menu"></div>
       </header>
       <nav></nav>
       <main>
@@ -208,7 +282,34 @@
         </section>
         <section id="section02">
           <div class="sec02">
-            <div class="moveport"></div>
+            <div class="moveport">
+              <div class="moving">
+                <div class="portlogo"></div>
+                <span class="porttext">PORTFOLIO</span>
+                <div class="portlogo"></div>
+                <span class="porttext">PORTFOLIO</span>
+                <div class="portlogo"></div>
+                <span class="porttext">PORTFOLIO</span>
+                <div class="portlogo"></div>
+                <span class="porttext">PORTFOLIO</span>    
+                <div class="portlogo"></div>
+                <span class="porttext">PORTFOLIO</span>  
+              </div>
+            </div>
+            <div class="about">
+              <h3>ABOUT</h3>
+              <div class="about__info01">
+                <span>Park</span>
+                <em>Jongho</em>
+              </div>
+              <div class="about__info02">
+                <span>New</span>
+                <em>PRONTEND</em>
+              </div>
+              <div class="about__info03">
+                <span>DEVELOPER</span>
+              </div>
+            </div>
           </div>
         </section>
       </main>
@@ -216,25 +317,74 @@
     </div>
 
     <script>
-      var index = 0; //이미지에 접근하는 인덱스
+      // 타이틀 이미지 바뀌기 
+      {
+        var index = 0; //이미지에 접근하는 인덱스
 
-      window.onload = function () {
-        slideShow();
-      };
+        window.onload = function () {
+          slideShow();
+        };
 
-      function slideShow() {
-        var i;
-        var ttImg = document.getElementsByClassName("slide1"); //slide1에 대한 dom 참조
-        for (i = 0; i < ttImg.length; i++) {
-          ttImg[i].style.display = "none"; //처음에 전부 display를 none으로 한다.
+        function slideShow() {
+          var i;
+          var ttImg = document.getElementsByClassName("slide1"); //slide1에 대한 dom 참조
+          for (i = 0; i < ttImg.length; i++) {
+            ttImg[i].style.display = "none"; //처음에 전부 display를 none으로 한다.
+          }
+          index++;
+          if (index > ttImg.length) {
+            index = 1; //인덱스가 초과되면 1로 변경
+          }
+          ttImg[index - 1].style.display = "block"; //해당 인덱스는 block으로
+          setTimeout(slideShow, 2000); //함수를 2초마다 호출
         }
-        index++;
-        if (index > ttImg.length) {
-          index = 1; //인덱스가 초과되면 1로 변경
-        }
-        ttImg[index - 1].style.display = "block"; //해당 인덱스는 block으로
-        setTimeout(slideShow, 1000); //함수를 4초마다 호출
       }
+
+      // //PORTFOLIO 롤링효과
+      // {
+      //   //롤링 배너 복제본 생성
+      //   let roller = document.querySelector(".moving");
+      //   roller.classList.add("roller1");
+
+      //   let clone = roller.cloneNode(true);
+      //   clone.classList.add("roller2");
+      //   document.querySelector(".moveport").appendChild(clone); //부착
+
+      //   //원본, 복제본 배너 위치 지정
+      //   document.querySelector(".roller1").style.left = "0px";
+      //   document.querySelector(".roller2").style.left =
+      //   document.querySelector(".moving").offsetWidth + "px";
+
+      //   //클래스 할당
+      //   roller.classList.add("original");
+      //   clone.classList.add("clone");
+
+      //   //인터벌 메서드로 애니메이션 생성
+      //   let rollerWidth = document.querySelector(".moveport").offsetWidth; //회전 배너 너비값
+      //   let betweenDistance = 1; //이동 크기 - 정수여야 함
+      //   originalID = window.setInterval(
+      //     betweenRollCallback,
+      //     parseInt(1920 / 100),
+      //     betweenDistance,
+      //     document.querySelector(".roller1")
+      //   );
+      //   cloneID = window.setInterval(
+      //     betweenRollCallback,
+      //     parseInt(1920 / 100),
+      //     betweenDistance,
+      //     document.querySelector(".roller2")
+      //   );
+
+      //   //인터벌 애니메이션 함수(공용)
+      //   function betweenRollCallback(d, roller) {
+      //     let left = parseInt(roller.style.left);
+      //     roller.style.left = left - d + "px"; //이동
+      //     //조건부 위치 리셋
+      //     if (rollerWidth + (left - d) <= 0) {
+      //       roller.style.left = rollerWidth + "px";
+      //     }
+      //   }
+      // }
     </script>
   </body>
 </html>
