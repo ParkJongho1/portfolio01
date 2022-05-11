@@ -13,12 +13,12 @@
       * {
         margin: 0;
         padding: 0;
-        font-family: "Oi";
       }
       #wrap {
         margin: 0 auto;
       }
       #header {
+        font-family: "Oi";
         position: fixed;
         left: 0;
         top: 0;
@@ -31,21 +31,23 @@
       }
       #header a:nth-child(1) {
         color: #fff;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        -webkit-text-stroke: 1px #000;
       }
       #header a:nth-child(2) {
         color: #FB450C;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        -webkit-text-stroke: 1px #000;
       }
       /* //header  */
 
 
-      #section1 {
+      /* section01 */
+      #section01 {
         background: #FBBF2D;
         height: 100vh;
         position: relative;
+        font-family: "Oi";
       }
-      #section1 img {
+      #section01 img {
         position: absolute;
         left: 0;
         right: 0;
@@ -65,7 +67,7 @@
         font-size: 8vw;
       }
       .sec1 h1 strong {
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        -webkit-text-stroke: 3px #000;
         color: #FB450C;
         font-weight: 500;
         position: relative;
@@ -96,7 +98,7 @@
       }
       .sec1 h1 p {
         color: #fff;
-        text-shadow: -2px 0px #000, 0px 2px #000, 2px 0px #000, 0px -2px #000;
+        -webkit-text-stroke: 3px #000;
         font-weight: 500;
         position: relative;
       }
@@ -118,6 +120,20 @@
         100% {
           transform: rotate(-360deg);
         }
+      }
+      /* //section01 */
+
+      /* section02 */
+      #section02 {
+        background: #F9F0DC;
+        height: 2000px;
+      }
+      .sec02 {}
+      .sec02 .moveport {
+        height: 100px;
+        background-color: #fff;
+        border-top: 2px solid #000;
+        border-bottom: 2px solid #000;
       }
 
       @media (max-width: 1280px){
@@ -169,17 +185,52 @@
       </header>
       <nav></nav>
       <main>
-        <section id="section1">
+        <section id="section01">
           <div class="sec1">
             <h1>
               <strong>PORTFOLIO</strong>
               <p>WORLD</p>
             </h1>
           </div>
-          <img src="assets/img/title01.svg" alt="title01">
+          <img class="slide1" src="assets/img/title01.svg" alt="title01">
+          <img class="slide1" src="assets/img/title02.svg" alt="title02">
+          <img class="slide1" src="assets/img/title03.svg" alt="title03">
+          <img class="slide1" src="assets/img/title04.svg" alt="title04">
+          <img class="slide1" src="assets/img/title05.svg" alt="title05">
+          <img class="slide1" src="assets/img/title06.svg" alt="title06">
+          <img class="slide1" src="assets/img/title07.svg" alt="title07">
+        </section>
+        <section id="section02">
+          <div class="sec02">
+            <div class="moveport">
+
+            </div>
+          </div>
         </section>
       </main>
       <footer></footer>
     </div>
+
+    <script>
+      var index = 0;   //이미지에 접근하는 인덱스
+
+      window.onload = function(){
+          slideShow();
+      }
+      
+      function slideShow() {
+      var i;
+      var ttImg = document.getElementsByClassName("slide1");  //slide1에 대한 dom 참조
+      for (i = 0; i < ttImg.length; i++) {
+        ttImg[i].style.display = "none";   //처음에 전부 display를 none으로 한다.
+      }
+      index++;
+      if (index > ttImg.length) {
+          index = 1;  //인덱스가 초과되면 1로 변경
+      }   
+      ttImg[index-1].style.display = "block";  //해당 인덱스는 block으로
+      setTimeout(slideShow, 1000);   //함수를 4초마다 호출
+    }
+    </script>
   </body>
 </html>
