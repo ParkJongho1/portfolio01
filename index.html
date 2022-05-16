@@ -34,6 +34,10 @@
       #wrap {
         margin: 0 auto;
       }
+      .container {
+        width: 1520px;
+        margin: 0 auto;
+      }
       #header {
         font-family: "Oi";
         position: fixed;
@@ -336,7 +340,7 @@
 
       /* section03 */
       #section03 {
-        height: 2000px;
+        height: 4000px;
       }
       .sec03 {
         font-family: "Oi";
@@ -395,11 +399,9 @@
       } */
       .sitework {
         margin-top: 20vw;
-        display: flex;
-        justify-content: center;
       }
       .sitework .aaasite {
-        width: 80vw;
+        width: 100%;
         height: 40vw;
         background: #e7fff1;
         border: 5px solid #000;
@@ -407,6 +409,7 @@
         box-shadow: 15px 15px;
         display: flex;
         justify-content: space-between;
+        margin-top: 10vw;
       }
       .sitework .aaasite .sitebg {
         width: 50%;
@@ -421,8 +424,8 @@
         top: 5vw;
         left: 5vw;
       }
-      .sitework .aaasite .sitebg .mokup {
-        background-image: url(assets/img/mokup00.svg);
+      .sitework .aaasite .sitebg .mockup {
+        background-image: url(assets/img/mockup00.svg);
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
@@ -448,16 +451,12 @@
         width: 50%;
         text-align: right;
         text-transform: uppercase;
-        position: relative;
       }
       .sitework .aaasite .sitedesc h4 {
         margin: 4vw 3vw 5vw 0;
-        font-size: 4.5vw;
+        font-size: 3.5vw;
         font-family: "Geostar";
         color: #0ab250;
-        position: absolute;
-        top: -1vw;
-        right: 0vw;
       }
       .sitework .aaasite .sitedesc p {
         margin: 0 3vw 3vw 0;
@@ -465,26 +464,22 @@
         font-size: 1.5vw;
         font-family: "Jua";
         color: #074a23;
-        position: absolute;
-        top: 13vw;
       }
       .sitework .aaasite .sitedesc .sitebtn {
-        position: absolute;
         width: 100%;
-        top: 30vw;
         display: flex;
         justify-content: center;
         font-family: "Geostar";
-        font-size: 1.5vw;
+        font-size: 1.2vw;
       }
       .sitework .aaasite .sitedesc .sitebtn .codeview {
-        padding: 1.3vw 3vw;
+        padding: 1vw 2.5vw;
         background: #cef3ca;
         color: #00843b;
         border-radius: 65px;
       }
       .sitework .aaasite .sitedesc .sitebtn .siteview {
-        padding: 1.3vw 3vw;
+        padding: 1vw 2.5vw;
         background: #cef3ca;
         color: #00843b;
         margin-left: 3vw;
@@ -492,6 +487,11 @@
       }
 
       /* //반응형(media) */
+      @media (max-width: 1400px) {
+        .container {
+          width: 100%;
+        }
+      }
       @media (max-width: 1280px) {
       }
       @media (max-width: 768px) {
@@ -693,22 +693,84 @@
               </div>
             </div> -->
           </div>
-          <div class="sitework">
+          <div class="sitework container">
             <div class="aaasite">
               <div class="sitebg">
                 <div class="round"></div>
-                <div class="mokup"></div>
+                <div class="mockup"></div>
                 <div class="cartoon"></div>
               </div>
               <div class="sitedesc">
                 <h4>webstanard</h4>
                 <p>
-                  안녕하세요. 신입 웹퍼블리셔&프론트엔드 개발자 김선영입니다.
-                  웹퍼블리셔와 프론트엔드는 그저 단순히 주어진 디자인을 구현하는
-                  것이 아닌, 운영체제와 브라우저 디바이스 등 다양한 환경을
-                  이해하고 이에 대응하는 스킬이 인을 구현하는 것이 아닌,
-                  운영체제와 브라우저 디바이스 등 다양한 환경을 이해하고 이에
-                  대응하합니다.
+                  IR효과와 skip메뉴 등 웹 표준을 준수하여 만든 사이트입니다.
+                  이미지스프라이트를 이용해 이미지 삽입을 하고 slick.js를 이용한
+                  이미지 슬라이드구현, 탭메뉴, 로그인폼 등을 구현했습니다. 웹
+                  접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수
+                  있도록 고려하여 만든 사이트입니다.
+                </p>
+                <div class="sitebtn">
+                  <a href="#" class="codeview">CODEVIEW</a>
+                  <a href="#" class="siteview">VIEW</a>
+                </div>
+              </div>
+            </div>
+            <div class="aaasite">
+              <div class="sitebg">
+                <div class="round"></div>
+                <div class="mockup"></div>
+                <div class="cartoon"></div>
+              </div>
+              <div class="sitedesc">
+                <h4>webstanard</h4>
+                <p>
+                  IR효과와 skip메뉴 등 웹 표준을 준수하여 만든 사이트입니다.
+                  이미지스프라이트를 이용해 이미지 삽입을 하고 slick.js를 이용한
+                  이미지 슬라이드구현, 탭메뉴, 로그인폼 등을 구현했습니다. 웹
+                  접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수
+                  있도록 고려하여 만든 사이트입니다.
+                </p>
+                <div class="sitebtn">
+                  <a href="#" class="codeview">CODEVIEW</a>
+                  <a href="#" class="siteview">VIEW</a>
+                </div>
+              </div>
+            </div>
+            <div class="aaasite">
+              <div class="sitebg">
+                <div class="round"></div>
+                <div class="mockup"></div>
+                <div class="cartoon"></div>
+              </div>
+              <div class="sitedesc">
+                <h4>webstanard</h4>
+                <p>
+                  IR효과와 skip메뉴 등 웹 표준을 준수하여 만든 사이트입니다.
+                  이미지스프라이트를 이용해 이미지 삽입을 하고 slick.js를 이용한
+                  이미지 슬라이드구현, 탭메뉴, 로그인폼 등을 구현했습니다. 웹
+                  접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수
+                  있도록 고려하여 만든 사이트입니다.
+                </p>
+                <div class="sitebtn">
+                  <a href="#" class="codeview">CODEVIEW</a>
+                  <a href="#" class="siteview">VIEW</a>
+                </div>
+              </div>
+            </div>
+            <div class="aaasite">
+              <div class="sitebg">
+                <div class="round"></div>
+                <div class="mockup"></div>
+                <div class="cartoon"></div>
+              </div>
+              <div class="sitedesc">
+                <h4>webstanard</h4>
+                <p>
+                  IR효과와 skip메뉴 등 웹 표준을 준수하여 만든 사이트입니다.
+                  이미지스프라이트를 이용해 이미지 삽입을 하고 slick.js를 이용한
+                  이미지 슬라이드구현, 탭메뉴, 로그인폼 등을 구현했습니다. 웹
+                  접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수
+                  있도록 고려하여 만든 사이트입니다.
                 </p>
                 <div class="sitebtn">
                   <a href="#" class="codeview">CODEVIEW</a>
