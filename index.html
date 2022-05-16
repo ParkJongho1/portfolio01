@@ -17,6 +17,10 @@
       href="https://webfontworld.github.io/BMJua/BMJua.css"
       rel="stylesheet"
     />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geostar&family=Jua&family=Luckiest+Guy&family=Oi&family=Poppins:ital,wght@0,300;0,400;0,600;1,200;1,300;1,400;1,500;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="assets/css/fonts.css" />
     <link rel="stylesheet" href="assets/css/reset.css" />
     <style>
@@ -308,7 +312,7 @@
         overflow: hidden;
       }
       .sec02 .about .about__skill01 .skills {
-        margin: 0.5vw 1.5vw;
+        margin: 1.5vw 1.5vw;
       }
       .sec02 .about .about__skill01 .skills img {
         height: 15vw;
@@ -320,10 +324,10 @@
         overflow: hidden;
       }
       .sec02 .about .about__skill02 .skills {
-        margin: 0vw 1.5vw;
+        margin: 1.5vw 1.5vw;
       }
       .sec02 .about .about__skill02 .skills:nth-child(1) {
-        margin: 0vw 1.5vw 0 0;
+        margin: 1.5vw 1.5vw 0 0;
       }
       .sec02 .about .about__skill02 .skills img {
         height: 15vw;
@@ -419,10 +423,15 @@
         background: #e7fff1;
         border: 5px solid #000;
         border-radius: 50px;
-        box-shadow: 8px 8px 8px 8px;
+        box-shadow: 15px 15px;
+        display: flex;
+        justify-content: space-between;
+      }
+      .sitework .aaasite .sitebg {
+        width: 50%;
         position: relative;
       }
-      .sitework .aaasite .round {
+      .sitework .aaasite .sitebg .round {
         background: #0ab250;
         width: 25vw;
         height: 25vw;
@@ -430,6 +439,75 @@
         position: absolute;
         top: 5vw;
         left: 5vw;
+      }
+      .sitework .aaasite .sitebg .mokup {
+        background-image: url(assets/img/mokup01.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 25vw;
+        height: 35vw;
+        top: 7vw;
+        left: 10vw;
+        z-index: 100;
+        position: absolute;
+      }
+      .sitework .aaasite .sitebg .cartoon {
+        background-image: url(assets/img/cartoon/cartoon01.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 9vw;
+        height: 9vw;
+        position: absolute;
+        top: 5vw;
+        left: 3vw;
+      }
+      .sitework .aaasite .sitedesc {
+        width: 50%;
+        text-align: right;
+        text-transform: uppercase;
+        position: relative;
+      }
+      .sitework .aaasite .sitedesc h4 {
+        margin: 4vw 3vw 5vw 0;
+        font-size: 4.5vw;
+        font-family: "Geostar";
+        color: #0ab250;
+        position: absolute;
+        top: -1vw;
+        right: 0vw;
+      }
+      .sitework .aaasite .sitedesc p {
+        margin: 0 3vw 3vw 0;
+        text-align: left;
+        font-size: 1.5vw;
+        font-family: "Jua";
+        color: #074a23;
+        position: absolute;
+        top: 13vw;
+      }
+      .sitework .aaasite .sitedesc .sitebtn {
+        position: absolute;
+        width: 100%;
+        top: 30vw;
+        display: flex;
+        justify-content: center;
+        font-family: "Geostar";
+        font-size: 1.5vw;
+      }
+      .sitework .aaasite .sitedesc .sitebtn .codeview {
+        padding: 1.3vw 3vw;
+        background: #cef3ca;
+        color: #00843b;
+        border-radius: 65px;
+      }
+      .sitework .aaasite .sitedesc .sitebtn .siteview {
+        padding: 1.3vw 3vw;
+        background: #cef3ca;
+        color: #00843b;
+        margin-left: 3vw;
+        border-radius: 65px;
       }
 
       /* //반응형(media) */
@@ -654,8 +732,26 @@
           </div>
           <div class="sitework">
             <div class="aaasite">
-              <div class="round"></div>
-              <div class="mokup"></div>
+              <div class="sitebg">
+                <div class="round"></div>
+                <div class="mokup"></div>
+                <div class="cartoon"></div>
+              </div>
+              <div class="sitedesc">
+                <h4>webstanard</h4>
+                <p>
+                  안녕하세요. 신입 웹퍼블리셔&프론트엔드 개발자 김선영입니다.
+                  웹퍼블리셔와 프론트엔드는 그저 단순히 주어진 디자인을 구현하는
+                  것이 아닌, 운영체제와 브라우저 디바이스 등 다양한 환경을
+                  이해하고 이에 대응하는 스킬이 인을 구현하는 것이 아닌,
+                  운영체제와 브라우저 디바이스 등 다양한 환경을 이해하고 이에
+                  대응하합니다.
+                </p>
+                <div class="sitebtn">
+                  <a href="#" class="codeview">CODEVIEW</a>
+                  <a href="#" class="siteview">VIEW</a>
+                </div>
+              </div>
             </div>
           </div>
         </section>
