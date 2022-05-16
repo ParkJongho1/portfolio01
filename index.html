@@ -394,20 +394,42 @@
       /* //siteline */
 
       /* siteview */
-      .sitework {
+      .sitetext {
+        display: flex;
+        justify-content: center;
         margin-top: 10vw;
+      }
+      .sitetext h3 {
+        font-family: "Oi";
+        font-weight: 300;
+        font-size: 3vw;
+      }
+      /* .sitetext p {
+        font-family: "BMJua";
+        font-size: 1.5vw;
+      } */
+      .sitework {
+        margin-top: 8vw;
         display: flex;
         justify-content: center;
       }
       .sitework .aaasite {
         width: 80vw;
         height: 40vw;
-        background: #fff;
+        background: #e7fff1;
         border: 5px solid #000;
         border-radius: 50px;
         box-shadow: 8px 8px 8px 8px;
+        position: relative;
       }
-      .sitework .aaasite {
+      .sitework .aaasite .round {
+        background: #0ab250;
+        width: 25vw;
+        height: 25vw;
+        border-radius: 100%;
+        position: absolute;
+        top: 5vw;
+        left: 5vw;
       }
 
       /* //반응형(media) */
@@ -631,7 +653,10 @@
             <p></p>
           </div>
           <div class="sitework">
-            <div class="aaasite"></div>
+            <div class="aaasite">
+              <div class="round"></div>
+              <div class="mokup"></div>
+            </div>
           </div>
         </section>
       </main>
