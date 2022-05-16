@@ -339,66 +339,47 @@
         height: 2000px;
       }
       .sec03 {
-        position: relative;
-        overflow: hidden;
         font-family: "Oi";
       }
       .sec03 .siteline {
         position: relative;
-        display: block;
-        overflow: hidden;
-        height: 30em;
-        margin: 0em auto 7em;
-        padding-top: 10em;
-        padding-bottom: 0em;
-        padding-left: 0em;
-        -webkit-box-pack: justify;
-        justify-content: space-between;
-        -webkit-box-align: center;
-        align-items: center;
       }
       .sec03 .siteline .line01 {
-        position: absolute;
-        left: -1vmax;
-        top: 9vmax;
-        overflow: hidden;
-        width: 120%;
-        height: 6.5vw;
-        background-color: #ffbf2d;
-        transform: skew(20deg);
+        width: 100%;
+        height: 100px;
+        background: #ff450b;
         border-top: 3px solid #000;
         border-bottom: 3px solid #000;
-        display: flex;
-        align-items: center;
+        position: absolute;
+        /* overflow: hidden; */
+        top: 20px;
+        right: 20px;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+          rotateY(0deg) rotateZ(-8deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
       }
       .sec03 .siteline .line01 p {
-        font-size: 2vw;
-        margin-top: 5px;
       }
       .sec03 .siteline .line02 {
-        position: absolute;
-        left: -1vmax;
-        top: 11vmax;
-        right: 0;
-        bottom: 30%;
-        overflow: hidden;
-        width: 120%;
-        height: 6.5vw;
-        background-color: #ff350b;
+        width: 100%;
+        height: 100px;
+        background: #ffd110;
         border-top: 3px solid #000;
         border-bottom: 3px solid #000;
-        display: flex;
-        align-items: center;
+        position: absolute;
+        /* overflow: hidden; */
+        top: 20px;
+        right: 20px;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg)
+          rotateY(0deg) rotateZ(8deg) skew(0deg, 0deg);
+        transform-style: preserve-3d;
       }
       .sec03 .siteline .line02 p {
-        font-size: 2vw;
-        margin-top: 5px;
-        color: #fff;
       }
       /* //siteline */
 
-      /* siteview */
-      .sitetext {
+      /* SITEWORK */
+      /* .sitetext {
         display: flex;
         justify-content: center;
         margin-top: 10vw;
@@ -408,12 +389,12 @@
         font-weight: 300;
         font-size: 3vw;
       }
-      /* .sitetext p {
+      .sitetext p {
         font-family: "BMJua";
         font-size: 1.5vw;
       } */
       .sitework {
-        margin-top: 8vw;
+        margin-top: 20vw;
         display: flex;
         justify-content: center;
       }
@@ -704,31 +685,13 @@
         <section id="section03">
           <div class="sec03">
             <div class="siteline">
-              <div
-                class="line01"
-                style="
-                  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(-8deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "
-              >
+              <div class="line01">
                 <p>NEW PRONTEND SITEWORK NEW PRONTEND SITEWORK</p>
               </div>
-              <div
-                class="line02"
-                style="
-                  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1)
-                    rotateX(0deg) rotateY(0deg) rotateZ(8deg) skew(0deg, 0deg);
-                  transform-style: preserve-3d;
-                "
-              >
+              <div class="line02">
                 <p>NEW PRONTEND SITEWORK NEW PRONTEND SITEWORK</p>
               </div>
             </div>
-          </div>
-          <div class="sitetext">
-            <h3>SITEWORK</h3>
-            <p></p>
           </div>
           <div class="sitework">
             <div class="aaasite">
