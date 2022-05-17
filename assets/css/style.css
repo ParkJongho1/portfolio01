@@ -571,8 +571,8 @@ body {
 
 /* //SECTION ROLLING04 */
 
-/* scriptwork */
-.sec04 .scriptwork {
+/* scriptwork01 */
+.sec04 .scriptwork01 {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -580,17 +580,18 @@ body {
     margin-top: 20vw;
 }
 
-.sec04 .scriptwork .scriptbox {
+.sec04 .scriptwork01 .scriptbox {
     width: 72%;
     height: 35vw;
     background: #e7fff1;
-    border: 5px solid #000;
+    /* border: 5px solid #000; */
     border-radius: 50px;
-    box-shadow: 15px 15px;
+    box-shadow: 15px 15px #53595a;
     position: relative;
+  
 }
 
-.sec04 .scriptwork .scriptbox iframe {
+.sec04 .scriptwork01 .scriptbox iframe {
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -599,23 +600,23 @@ body {
     border-radius: 50px;
 }
 
-.sec04 .scriptwork .scriptdesc {
+.sec04 .scriptwork01 .scriptdesc {
     width: 25%;
     height: 35vw;
     background: #fff;
     border: 5px solid #000;
     border-radius: 50px;
-    box-shadow: 15px 15px;
+    box-shadow: 15px 15px #53595a;
     position: relative;
 }
-.sec04 .scriptwork .scriptdesc svg{
+.sec04 .scriptwork01 .scriptdesc svg{
     position: absolute;
     top: -5vw;
     right: -1vw;
     width: 10vw;
     height: 10vw;
 }
-.sec04 .scriptwork .scriptdesc h4 {
+.sec04 .scriptwork01 .scriptdesc h4 {
     font-family: "Geostar";
     white-space: wrap;
     text-align: center;
@@ -624,7 +625,7 @@ body {
     font-size: 3vw;
     font-weight: 100;
 }
-.sec04 .scriptwork .scriptdesc p {
+.sec04 .scriptwork01 .scriptdesc p {
     font-family: "Jua";
     font-size: 1.2vw;
     width: 80%;
@@ -632,10 +633,10 @@ body {
     margin-top: 3vw;
     line-height: 1.5;
 }
-.sec04 .scriptwork .scriptdesc .scriptbtn {
+.sec04 .scriptwork01 .scriptdesc .scriptbtn {
     text-align: center;
 }
-.sec04 .scriptwork .scriptdesc .scriptbtn a {
+.sec04 .scriptwork01 .scriptdesc .scriptbtn a {
     display: inline-block;
     margin-top: 4vw;
     font-family: "Jua";
@@ -643,8 +644,86 @@ body {
     padding: 0.8vw 2vw;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 50px;
-    background: #C18751;
-    color: rgb(0, 0, 0);
+    background: #53595a;
+    color: #fff;
+}
+
+/* scriptwork02 */
+.sec04 .scriptwork02 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 3%;
+    margin-top: 20vw;
+}
+
+.sec04 .scriptwork02 .scriptbox {
+    width: 72%;
+    height: 35vw;
+    background: #e7fff1;
+    /* border: 5px solid #000; */
+    border-radius: 50px;
+    box-shadow: 15px 15px #53595a;
+    position: relative;
+  
+}
+
+.sec04 .scriptwork02 .scriptbox iframe {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    /* border: 5px solid #000; */
+    outline: 5px solid #000;
+    border-radius: 50px;
+}
+
+.sec04 .scriptwork02 .scriptdesc {
+    width: 25%;
+    height: 35vw;
+    background: #fff;
+    border: 5px solid #000;
+    border-radius: 50px;
+    box-shadow: 15px 15px #6e7d7e;
+    position: relative;
+}
+.sec04 .scriptwork02 .scriptdesc svg{
+    position: absolute;
+    top: -5vw;
+    left: -1vw;
+    width: 10vw;
+    height: 10vw;
+}
+.sec04 .scriptwork02 .scriptdesc h4 {
+    font-family: "Geostar";
+    white-space: wrap;
+    text-align: center;
+    width: 98%;
+    margin-top: 3vw;
+    font-size: 2.5vw;
+    font-weight: 100;
+}
+.sec04 .scriptwork02 .scriptdesc p {
+    font-family: "Jua";
+    font-size: 1.2vw;
+    width: 80%;
+    margin: 0 auto; 
+    margin-top: 3vw;
+    line-height: 1.5;
+}
+.sec04 .scriptwork02 .scriptdesc .scriptbtn {
+    text-align: center;
+}
+.sec04 .scriptwork02 .scriptdesc .scriptbtn a {
+    display: inline-block;
+    margin-top: 4vw;
+    font-family: "Jua";
+    font-size: 1.5vw;
+    padding: 0.8vw 2vw;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    background: #53595a;
+    color: #fff;
 
 }
 
