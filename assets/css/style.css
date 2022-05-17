@@ -548,8 +548,12 @@ body {
     display: flex;
     align-items: center;
     /* position: absolute; */
+    animation: move-left 100s linear infinite; 
 }
-
+@keyframes move-left {
+    0% { transform: translateX(0);}
+    100% { transform: translateX(-100%);}
+}
 .sec04 .movescirpt .moving .scriptlogo {
     background-image: url(../img/scriptmoving.svg);
     background-size: cover;
