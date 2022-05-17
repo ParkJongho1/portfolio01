@@ -597,6 +597,7 @@ body {
     overflow: hidden;
     position: absolute;
     border: none;
+    outline: 6px solid #000;
     border-radius: 50px;
 }
 
@@ -604,7 +605,7 @@ body {
     width: 25%;
     height: 35vw;
     background: #fff;
-    border: 5px solid #000;
+    border: 6px solid #000;
     border-radius: 50px;
     box-shadow: 15px 15px #53595a;
     position: relative;
@@ -673,8 +674,8 @@ body {
     height: 100%;
     overflow: hidden;
     position: absolute;
-    /* border: 5px solid #000; */
-    outline: 5px solid #000;
+    border: none;
+    outline: 6px solid #000;
     border-radius: 50px;
 }
 
