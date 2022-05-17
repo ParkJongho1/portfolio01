@@ -42,12 +42,7 @@ body {
     color: rgb(236, 130, 130);
 }
 .sec1 .title .img {
-    background-image: url(../img/facebg.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    width: 13vw;
-    width: 13vw;
+  
 }
 
 .sec1 .title .img img {
@@ -56,5 +51,13 @@ body {
     position: absolute;
     top: 7vw;
     right: 7vw;
-   
+    background-image: url(../img/facebg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
+/* sec1 */
+
+
+/* sec2 */
