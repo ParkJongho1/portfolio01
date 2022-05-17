@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트</title>
+
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="../assets/face/javascript.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/face/javascript.png">
+    <link rel="icon" href="../assets/face/javascript.png" sizes="128x128">
+
+    <!-- style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/prism.css">
+
+    <!-- script -->
+    <script src="assets/js/prism.js"></script>
+</head>
+
+<body>
+
+    <div class="top"><a href="#header">top</a></div>
+
+    <header id="header">
+        <h1><a href="index.html">Javascript</a></h1>
+        <nav>
+            <ul>
+                <li><a href="reference01.html">기초 문법</a></li>
+                <li><a href="reference02.html">변수</a></li>
+                <li><a href="reference03.html">자료형</a></li>
+                <li class="active"><a href="reference04.html">for문</a></li>
+                <li><a href="reference05.html">연산자</a></li>
+                <li><a href="reference06.html">조건문</a></li>
+                <li><a href="reference07.html">반복문</a></li>
+                <li><a href="reference08.html">함수</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main">
+        <div class="doc">
+        <h2>for()문</h2>
+        <ul>
+        <li>for문은 while문과는 달리 자체적으로 <strong>초기식, 표현식, 증감식</strong>을 모두 포함하고 있는 반복문입니다.</li>    
+        <li>for문을 구성하는 초기식, 조건식, 증감식은 각각 생략될 수 있습니다.</li>
+        <li>쉼표 연산자(,)를 사용하면 여려 개의 초기식이나 증감식을 동시에 사용할 수 있습니다.</li>
+        <li>for문의 종류에는 for(기본), foEach, for in, for of 가 있습니다.</li>
+        </ul>
+        
+            <h2>for()문 문법</h2>
+            <h3>for</h3>
+            <p>모든 자료형에 대해 사용이 가능하고 반복문 건너뛰기(continue),종료(break)가 가능하다. 변수 활용이 가능하다.</p>
+            <br>
+            <div class="code">
+<pre><code>문법
+예시
+const arr = [100, 200, 300, 400, 500];
+
+    for( let i=0; i&lt;arr.length; i++ ){
+        document.write(arr[i]);
+    }
+//출력결과 100 200 300 400 500
+</pre></code>
+            </div>
+      
+            <h3>forEach</h3>
+            <p>코드를 한분에 보기 쉽고 간결하다. 성능 측면에서 매우 준수하다. 여러 기본 매개변수를 통해 활용도가 높다.</p>
+            <br>
+            <div class="code">
+<pre><code>문법
+예시
+const arr = [100, 200, 300, 400, 500];
+
+arr.forEach(function(el){
+    document.write(el);
+}
+//출력결과 100 200 300 400 500
+</pre></code>
+            </div>
+
+            <h3>for in</h3>
+            <p>객체에 쉽게 접근하여 반복문을 수핼할 수 있다. 반복문 건너뛰기(continue),종료(break)가 가능하다. </p>
+            <br>
+            <div class="code">
+<pre><code>문법
+예시
+const arr = {
+    a: 1,
+    b: 2,
+    c: 3
+};
+
+for ( let i in arr) {
+    document.write(i, arr[i]);
+}
+//출력결과 a 1, b 2,c 3
+</pre></code>
+           </div>
+
+           <h3>for of</h3>
+           <p>반복 가능한 객체에 대해 간결하게 반목문을 작성 가능하다. 반복문 건너뛰기(continue),종료(break)가 가능하다.</p>
+           <br>
+           <div class="code">
+<pre><code>문법
+예시
+const str = 'hello';
+
+for ( let s of str) {
+   document.write(s);
+}
+//출력결과 h, e, l, l, o
+</pre></code>
+          </div>
+        </div>
+
+
+
+    </main>
+
+</body>
+
+</html>
