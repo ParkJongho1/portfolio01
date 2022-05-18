@@ -5,11 +5,15 @@
 }
 
 body {
-    display: grid;
     place-items: center;
+    width: 100%;
     min-height: 100vh;
-    padding: 1.5rem;
     font-family: system-ui;
+    overflow-x: hidden;
+}
+
+.brown { 
+    background-color: #f9f0dc;
 }
 
 #canvas {
@@ -19,7 +23,6 @@ body {
     width: 100%;
     height: 100%;
     background: #005397;
-    z-index: -1;
 }
 
 .scrollTop {
@@ -34,11 +37,17 @@ body {
     line-height: 50px;
     z-index: 30000;
 }
+
 #header {
     width: 100%;
     position: absolute;
-    bottom: -98px;
+    bottom: -100px;
     left: 0;
+}
+
+#header .fixed {
+    /* position: fixed; */
+   
 }
 
 #nav ul {
@@ -49,16 +58,22 @@ body {
     font-weight: 300;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
+    background-color: #fff;
+    height: 100px;
 }
 
 #nav ul li {
     padding: 20px 40px;
     font-size: 1.6vw;
-    border-right: 1px solid #000;
+    /* border-right: 1px solid #000; */
 }
+
 #nav ul li img {
     width: 5vw;
     height: 5vw;
+}
+#section {
+    width: 100%;
 }
 .sec1 {
     width: 100%;
@@ -76,6 +91,7 @@ body {
     line-height: 1;
     font-family: "Oi";
     font-weight: 300;
+    z-index: 1000;
 }
 
 .sec1 .title .t1 {
@@ -86,6 +102,7 @@ body {
     color: #e13334;
     -webkit-text-stroke: 3px #000;
 }
+
 /* .sec1 .title .t3 {
     font-family: 'JUA';
     font-size: 2vw;
@@ -100,6 +117,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    z-index: 2000;
 }
 
 /* sec1 */
@@ -108,5 +126,246 @@ body {
 /* sec2 */
 .sec2 {
     width: 100%;
-    height: 2000px;
 }
+
+.sec2 .about {
+    margin-top: 15vw;
+    text-align: center;
+    font-family: "Oi";
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.sec2 .about h3 {
+    font-size: 7vw;
+    color: #fb450c;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 3vw;
+}
+
+.sec2 .about .about__info01 {
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 .about .about__info01 span {
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+}
+
+.sec2 .about .about__info01 .aboutlogo {
+    background-image: url(../img/ttlogo03.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 8vw;
+    height: 8vw;
+    margin: 0 2vw;
+}
+
+.sec2 .about .about__info01 em {
+    color: #000;
+    -webkit-text-stroke: 2px #f99fb7;
+}
+
+.sec2 .about .about__info02 {
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 .about .about__info02 span {
+    color: #000;
+    -webkit-text-stroke: 3px #ac9bc6;
+}
+
+.sec2 .about .about__info02 em {
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+}
+
+.sec2 .about .about__info02 .aboutlogo {
+    background-image: url(../img/ttlogo01.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 8vw;
+    height: 8vw;
+    margin: 0 2vw;
+}
+
+.sec2 .about .about__info03 {
+    font-size: 6vw;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 .about .about__info03 span {
+    /* background: -webkit-linear-gradient(left, rgb(36, 35, 35), rgb(117, 114, 114));
+    background:    -moz-linear-gradient(right, rgb(36, 35, 35), rgb(117, 114, 114));
+    background:      -o-linear-gradient(right, rgb(36, 35, 35), rgb(117, 114, 114));
+    background:         linear-gradient(to right, rgb(36, 35, 35), rgb(117, 114, 114));
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent; */
+    color: #fff;
+    -webkit-text-stroke: 2px #000;
+}
+
+.sec2 .about .about__info03 .aboutlogo {
+    background-image: url(../img/ttlogo02.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 8vw;
+    height: 8vw;
+    margin: 0 2vw;
+}
+
+.sec2 .about .about__text {
+    margin-top: 6vw;
+    font-family: "SangSangRock";
+    font-size: 1.8vw;
+    line-height: 0.8;
+    color: #603f37;
+    position: relative;
+}
+
+.sec2 .about .about__text::before {
+    content: "";
+    background-image: url(../img/curlyarrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 10vw;
+    height: 10vw;
+    position: absolute;
+    right: 10%;
+    bottom: -80%;
+}
+.sec2 .about .about__skill01 {
+    width: 100%;
+    margin-top: 15vw;
+    display: flex;
+    overflow: hidden;
+}
+.sec2 .about .about__skill01 .skills {
+    margin: 1.5vw 1.5vw;
+}
+
+.sec2 .about .about__skill01 .skills img {
+    height: 15vw;
+}
+.sec2 .about .about__skill02 {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sec2 .about .about__skill02 .skills {
+    margin: 1.5vw 1.5vw;
+}
+
+.sec2 .about .about__skill02 .skills:nth-child(1) {
+    margin: 1.5vw 1.5vw 0 0;
+}
+
+.sec2 .about .about__skill02 .skills img {
+    height: 15vw;
+}
+
+/* //section2 */
+
+/* section3  */
+.sec3 {
+    width: 100%;
+    margin-top: 10vw;
+    height: 5000px;
+    /* border-top: 1px solid #000; */
+}
+.sec3 .rolling__wrap {
+    width: 150%;
+    position: relative;
+    left: -8em;
+    bottom: -31px;
+    display: flex;
+    overflow: hidden;
+    height: 25em;
+    margin: 0em auto 7em;
+    padding-top: 10em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    transform: rotate(10deg) translateY(2vw) translateX(0vw);
+}
+.sec3 .rolling__wrap .rolling__box {
+    position: absolute;
+    overflow: hidden;
+    width: 150%;
+    height: 10vw;
+    background-color: #ffbf2d;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+.sec3 .rolling__wrap .rolling__box p {
+  font-size: 3vw;
+  font-family: 'Luckiest Guy';
+  font-weight: bold;
+  padding: 3vw;
+  line-height: 1;
+  text-transform: uppercase;
+}
+.sec3 .rolling__wrap02 {
+    width: 150%;
+    position: relative;
+    left: -8em;
+    bottom: 525px;
+    display: flex;
+    /* justify-content: flex-end; */
+    overflow: hidden;
+    height: 25em;
+    margin: 0em auto 7em;
+    padding-top: 10em;
+    padding-bottom: 0em;
+    padding-left: 0em;
+    transform: rotate(-10deg) translateY(-2vw) translateX(0vw);
+}
+.sec3 .rolling__wrap02 .rolling__box {
+    position: absolute;
+    overflow: hidden;
+    width: 150%;
+    height: 10vw;
+    background-color: #FF450B;
+    border-top: 5px solid #000;
+    border-bottom: 5px solid #000;
+}
+.sec3 .rolling__wrap02 .rolling__box p {
+    font-size: 3vw;
+    font-family: 'Luckiest Guy';
+    font-weight: bold;
+    padding: 3vw;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+/* .sec3 .rolling__wrap .rolling__box img  {
+    width: 1vw;
+    height: 1vw;
+} */
+
+/* section03 rolling */
+
+.sec3 .site__wrap {
+    width: 80%;
+    height: 40vw;
+    margin: 0 auto;
+    background: #E7FFF1;
+    outline: 5px solid #000;
+    box-shadow: 15px 15px #000;
+    border-radius: 50px;
+}
+.sec3 .site__wrap .site__box {
+}
+.sec3 .site__wrap .site__desc {
+
+}
+

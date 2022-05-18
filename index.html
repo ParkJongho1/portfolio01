@@ -16,17 +16,16 @@
   <header id="header">
     <nav id="nav">
       <ul>
-        <li data-0="width:0%"
-        data-1000="width:100%; background: #777">
-        PORT</li>
-        <li>ABOUT</li>
-        <li>WORK</li>
-        <li>CONTACT</li>
+        <li data-0="width:0%" data-1000="width:20%; background: #777">
+          <a href="test01.html">PORT</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">WORK</a></li>
+        <li><a href="">CONTACT</a></li>
       </ul>
     </nav>
   </header>
 
-  <div id="section">
+  <div id="section" class="brown">
     <div class="sec1">
       <svg id="canvas"></svg>
       <div class="title">
@@ -34,15 +33,117 @@
         <p class="t2">WORLD</p>
         <!-- <p class="t3">안녕하세요. 박종호입니다!<br> 제포트폴리오에 방문해주셔서 감사합니다.</p> -->
       </div>
-      <img src="assets/img/face01.svg" alt="1" data-0="bottom: 18vw; right: 21vw; width: 11vw; height: 11vw; transform: rotate(0deg); padding: 40px; position:";
-      data-1000="bottom: 2vw; right: 2vw; width: 9vw; height: 9vw; transform: rotate(360deg); padding: 0px;";>
+      <img src="assets/img/face01.svg" alt="1"
+        data-0="bottom: 18vw; right: 21vw; width: 11vw; height: 11vw; transform: rotate(0deg); padding: 40px; position:"
+        ; data-1000="bottom: 2vw; right: 2vw; width: 9vw; height: 9vw; transform: rotate(360deg); padding: 0px;" ;>
 
     </div>
     <!-- sec1 -->
-    <div class="sec2">
+    <div class="sec2 brown">
+      <div class="about">
+        <h3>ABOUT</h3>
+        <div class="about__info01">
+          <span>Park</span>
+          <div class="aboutlogo"></div>
+          <em>Jong ho</em>
+        </div>
+        <div class="about__info02">
+          <span>New</span>
+          <div class="aboutlogo"></div>
+          <em>FRONTEND</em>
+        </div>
+        <div class="about__info03">
+          <span>DEVELOPER</span>
+          <div class="aboutlogo"></div>
+        </div>
+        <div class="about__text">
+          <p>안녕하세요. 프론트엔드 개발자를 꿈꾸고 있는 박종호입니다.</p>
+          <br />
+          <p>
+            학창시절 컴퓨터가 좋아 무작정 컴퓨터에 관련된 과에 진학한 후
+          </p>
+          <br />
+          <p>
+            다른분야 일을 하다 웹개발 학원을 알게되어 다시 한번 개발자에
+            도전하게 되었습니다.
+          </p>
+          <br />
+          <p>
+            다시한번 도전한 만큼 포기하지 않고 꾸준히 도전하고 노력하여
+            능력을 향상시키는 개발자가 될것 입니다.
+          </p>
+          <br />
+          <p>
+            제가 다룰수 있는 스킬들 입니다. 아직 많이 부족하겠지만
+            꾸준하게 노력중입니다!
+          </p>
+        </div>
+        <!-- <div><img src="assets/img/curlyarrow.svg" alt=""></div> -->
+        <div class="about__skill01">
+          <div class="skills">
+            <img src="assets/img/skillhtml.svg" alt="html" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillcss.svg" alt="css" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillscss.svg" alt="scss" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skilljs.svg" alt="javascript" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skilljq.svg" alt="jquery" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillnode.svg" alt="nodejs" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillgit.svg" alt="git" />
+          </div>
+        </div>
+        <div class="about__skill02">
+          <div class="skills">
+            <img src="assets/img/skillphp.svg" alt="php" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillsql.svg" alt="sql" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillreact.svg" alt="react" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillyarn.svg" alt="yarn" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillmgdb.svg" alt="mongodb" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillvue.svg" alt="vue" />
+          </div>
+          <div class="skills">
+            <img src="assets/img/skillfigma.svg" alt="figma" />
+          </div>
+        </div>
+      </div>
     </div>
     <!-- sec2 -->
-    <div class="sec3"></div>
+    <div class="sec3 brown">
+      <div class="rolling__wrap">
+        <div class="rolling__box">
+          <p class="rolling__text"></p>
+        </div>
+      </div>
+      <div class="rolling__wrap02">
+        <div class="rolling__box">
+          <p class="rolling__text01"></p>
+        </div>
+      </div>
+      <div class="site__wrap">
+        <div class="site_box"></div>
+        <div class="site_desc"></div>
+      </div>
+    </div>
     <!-- sec3 -->
     <div class="sec4"></div>
     <!-- sec4 -->
@@ -55,6 +156,54 @@
 
   <script type="text/JavaScript" src="assets/js/skrollr.min.js"></script>
   <script type="module">
+    {
+      const pTag1 = document.querySelector('.rolling__text')
+      const pTag2 = document.querySelector('.rolling__text01')
+    
+
+      const textArr1 = 'New FRONTEND SITE WORK New FRONTEND SITE WORK New FRONTEND SITE WORK New FRONTEND SITE WORK'.split(' ')
+      const textArr2 = 'New FRONTEND SITE WORK New FRONTEND SITE WORK New FRONTEND SITE WORK New FRONTEND SITE WORK'.split(' ')
+
+      let count1 = 0
+      let count2 = 0
+      let count3 = 0
+      let count4 = 0
+
+      initTexts(pTag1, textArr1)
+      initTexts(pTag2, textArr2)
+    
+
+      function initTexts(element, textArray) {
+        textArray.push(...textArray)
+        for (let i = 0; i < textArray.length; i++) {
+          element.innerText += `${textArray[i]}\u00A0\u00A0\u00A0\u00A0`
+        }
+      }
+
+      function marqueeText(count, element, direction) {
+        if (count > element.scrollWidth / 2) {
+          element.style.transform = `translate3d(0, 0, 0)`
+          count = 0
+        }
+        element.style.transform = `translate3d(${direction * count}px, 0, 0)`
+
+        return count
+      }
+
+      function animate() {
+        count1++
+        count2++
+        count3++
+        count4++
+
+        count1 = marqueeText(count1, pTag1, -1)
+        count2 = marqueeText(count2, pTag2, -1)
+
+        window.requestAnimationFrame(animate)
+      }
+      animate()
+    }
+    
     
 
       
