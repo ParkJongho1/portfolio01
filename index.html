@@ -12,20 +12,34 @@
 </head>
 
 <body>
-  
+  <div class="scrollTop">0</div>
+  <header id="header">
+    <nav id="nav">
+      <ul>
+        <li data-0="width:0%"
+        data-1000="width:100%; background: #777">
+        PORT</li>
+        <li>ABOUT</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </nav>
+  </header>
+
   <div id="section">
     <div class="sec1">
       <svg id="canvas"></svg>
       <div class="title">
         <p class="t1">PORTFOLIO</p>
         <p class="t2">WORLD</p>
-        <div class="img"><img src="assets/img/face01.svg" alt=""></div>
+        <!-- <p class="t3">안녕하세요. 박종호입니다!<br> 제포트폴리오에 방문해주셔서 감사합니다.</p> -->
       </div>
+      <img src="assets/img/face01.svg" alt="1" data-0="bottom: 18vw; right: 21vw; width: 11vw; height: 11vw; transform: rotate(0deg); padding: 40px; position:";
+      data-1000="bottom: 2vw; right: 2vw; width: 9vw; height: 9vw; transform: rotate(360deg); padding: 0px;";>
 
     </div>
     <!-- sec1 -->
     <div class="sec2">
-      ddd
     </div>
     <!-- sec2 -->
     <div class="sec3"></div>
@@ -36,10 +50,26 @@
     <!-- sec5 -->
     <div class="sec6"></div>
     <!-- sec6 -->
-    
+
   </div>
 
+  <script type="text/JavaScript" src="assets/js/skrollr.min.js"></script>
   <script type="module">
+    
+
+      
+      var s = skrollr.init();
+
+      function scroll() {
+          let scrollTop = window.screenY || window.pageYOffset || document.documentElement.scrollTop;
+          document.querySelector(".scrollTop").innerText = Math.round(scrollTop);
+
+          //document.querySelector(".section1__bg img").style.width = scrollTop + "px";
+
+          requestAnimationFrame(scroll)
+      }
+      scroll();
+    
     import {SVG} from "https://cdn.skypack.dev/@svgdotjs/svg.js@3.1.1";
     import SimplexNoise from "https://cdn.skypack.dev/simplex-noise@3.0.1";
     import {
