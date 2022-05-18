@@ -355,17 +355,108 @@ body {
 /* section03 rolling */
 
 .sec3 .site__wrap {
-    width: 80%;
+    width: 70%;
     height: 40vw;
     margin: 0 auto;
     background: #E7FFF1;
     outline: 5px solid #000;
     box-shadow: 15px 15px #000;
     border-radius: 50px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .sec3 .site__wrap .site__box {
+    position: relative;
+    width: 35%;
+}
+
+.sec3 .site__wrap .site__box .sitecircle {
+    position: absolute;
+    top: 5vw;
+    left: 2.5vw;
+    background-color: #0AB250;
+    border-radius: 100%;
+    width: 23vw;
+    height: 23vw;
+}
+.sec3 .site__wrap .site__box .sitelogo {
+    position: absolute;
+    top: 2vw;
+    left: 2.5vw;
+    width: 9vw;
+    height: 9vw;
+}
+.sec3 .site__wrap .site__box .sitemockup {
+    position: absolute;
+    top: 4vw;
+    left: 10vw;
+    width: 28vw;
+    height: 38vw;
 }
 .sec3 .site__wrap .site__desc {
-
+    width: 65%;
+    white-space: wrap;
+}
+.sec3 .site__wrap .site__desc h3 {
+    font-family: "Geostar Fill";
+    font-size: 4vw;
+    text-transform: uppercase;
+    color: #0AB250;
+    margin-top: 3vw;
+}
+.sec3 .site__wrap .site__desc p {
+    width: 50%;
+    text-align: left;
+    margin: 3.5vw 0 0 18.5vw;
+    font-family: "JUA";
+    font-size: 1.3vw;
+    line-height: 1.7;
+    color: #074A23;
+}
+.sec3 .site__wrap .site__btn {
+    display: flex;
+    margin: 5vw 0 0 9vw;
+    font-family: "Geostar Fill";
+}
+.sec3 .site__wrap .site__btn .left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec3 .site__wrap .site__btn .left a {
+    font-size: 1.2vw;
+    color: #00843B;
+    text-align: center;
+    padding: 1vw 1vw;
+    background: #E7F7E5;
+    /* border: 2px solid #000; */
+    border-radius: 50px;
+    margin: 0 3vw 0 1vw ;
+}
+.sec3 .site__wrap .site__btn .left svg {
+    vertical-align: -10px;
+    margin-right: 3px;
+    width: 2vw;
+    height: 2vw;
+}
+.sec3 .site__wrap .site__btn .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec3 .site__wrap .site__btn .right a {
+    font-size: 1.2vw;
+    color: #00843B;
+    text-align: center;
+    padding: 1vw 1vw;
+    background: #E7F7E5;
+    /* border: 2px solid #000; */
+    border-radius: 50px;
+}
+.sec3 .site__wrap .site__btn .right svg {
+    vertical-align: -10px;
+    margin-right: 3px;
+    width: 2vw;
+    height: 2vw;
 }
 
