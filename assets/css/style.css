@@ -60,6 +60,7 @@ body {
     position: absolute;
     top: 0.75vw;
     right: -1.77vw;
+    z-index: 1000;
 }
 /* //nav */
 
