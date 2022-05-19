@@ -309,8 +309,8 @@ body {
     width: 120%;
     height: 8vw;
     background: #FF450B;
-    border-top: 3px solid #000;
-    border-bottom: 3px solid #000;
+    /* border-top: 3px solid #000;
+    border-bottom: 3px solid #000; */
     position: absolute;
     overflow: hidden;
     top: 20vw;
