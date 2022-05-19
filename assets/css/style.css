@@ -22,7 +22,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #005397;
+    background: #2c1366;
 }
 
 .scrollTop {
@@ -38,40 +38,6 @@ body {
     z-index: 30000;
 }
 
-#header {
-    width: 100%;
-    position: absolute;
-    bottom: -100px;
-    left: 0;
-}
-
-#header .fixed {
-    /* position: fixed; */
-   
-}
-
-#nav ul {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    font-family: 'Oi';
-    font-weight: 300;
-    border-top: 3px solid #000;
-    border-bottom: 3px solid #000;
-    background-color: #fff;
-    height: 100px;
-}
-
-#nav ul li {
-    padding: 20px 40px;
-    font-size: 1.6vw;
-    /* border-right: 1px solid #000; */
-}
-
-#nav ul li img {
-    width: 5vw;
-    height: 5vw;
-}
 #section {
     width: 100%;
 }
@@ -81,7 +47,7 @@ body {
 }
 
 .sec1 .title {
-    font-size: 8vw;
+    font-size: 9vw;
     color: #fff;
     position: absolute;
     top: 50%;
@@ -99,7 +65,7 @@ body {
 }
 
 .sec1 .title .t2 {
-    color: #e13334;
+    color: #ffdc81;
     -webkit-text-stroke: 3px #000;
 }
 
@@ -112,11 +78,11 @@ body {
 
 .sec1 img {
     position: fixed;
-    padding: 2vw;
     background-image: url(../img/facebg.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    border-radius: 100%;
     z-index: 2000;
 }
 
@@ -127,6 +93,36 @@ body {
 .sec2 {
     width: 100%;
 }
+.sec2 ul {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background: #fff;
+    font-family: "Oi";
+    font-size: 1.5vw;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+.sec2 ul li {
+    width: 25%;
+    text-align: center;
+    padding: 1.5vw 1vw 1.2vw 1vw;
+    border-right: 1px solid #000;
+    position: relative;
+}
+.sec2 ul li .bg {
+    width: 100%;
+    height: 100%;
+    background: #999;
+}
+.sec2 ul li img {
+    width: 3.5vw;
+    height: 3.5vw;
+    position: absolute;
+    top: 0.75vw;
+    right: -1.77vw;
+}
+
 
 .sec2 .about {
     margin-top: 15vw;
