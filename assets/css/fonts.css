@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');  /* 메인폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap'); /* 설명폰트 */
 @import url('https://fonts.googleapis.com/css2?family=Geostar&family=Geostar+Fill&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+@import url('https://webfontworld.github.io/suseong/SuseongHyejeong.css');
+
 
 @font-face {
     font-family: "SangSangRock";
