@@ -283,20 +283,18 @@ body {
     color: #603f37;
     position: relative;
 }
-
-.sec2 .about .about__text::before {
-    content: "";
-    background-image: url(../img/curlyarrow.svg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+.sec2 .about .about__text p {
+    opacity: 0;
+}
+.sec2 .about .about__text .atimg img {
+    position: absolute;
+    right: 12vw;
+    bottom: -10vw;
     width: 10vw;
     height: 10vw;
-    position: absolute;
-    right: 10%;
-    bottom: -80%;
-    
+    opacity: 0;
 }
+
 
 .sec2 .about .about__skill01 {
     width: 100%;
