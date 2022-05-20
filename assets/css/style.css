@@ -423,7 +423,6 @@ body {
 .sec3 .site__wrap {
     width: 70%;
     margin: 10vw auto;
-    /* text-align: center; */
 }
 .sec3 .site__wrap h2 {
     font-family: "Luckiest Guy";
@@ -431,6 +430,7 @@ body {
     margin-left: 1vw;
 }
 .sec3 .site__wrap .site__box {
+
     margin-top: 3vw;
     width: 100%;
     height: 35vw;
