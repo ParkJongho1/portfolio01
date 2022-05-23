@@ -1,3 +1,20 @@
+#skrollr-body {}
+
+#skrollr-body div.container {
+    height: 1000px;
+}
+
+#skrollr-body div.container>div {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    margin-top: -20px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -500,6 +517,7 @@ body {
     font-size: 7vw;
     margin-left: 1vw;
 }
+
 .sec3 .site__wrap .sitebox {
     width: 100%;
     height: 35vw;
@@ -507,6 +525,7 @@ body {
     border-radius: 50px;
     box-shadow: 15px 15px #000;
 }
+
 .sec3 .site__wrap .site__box {
     position: sticky;
     top: 10vw;
@@ -662,45 +681,53 @@ body {
     .sec3 .site__wrap .sitebox {
         height: 70vh;
         flex-direction: column;
-        top:25vw;
+        top: 25vw;
     }
+
     .sec3 .site__wrap .site__box .site__mockup {
         height: 40%;
     }
+
     .sec3 .site__wrap .site__box .site__mockup .sitebg {
         display: none;
     }
-    
+
     .sec3 .site__wrap .site__box .site__mockup .sitelogo {
         display: none;
     }
-    
+
     .sec3 .site__wrap .site__box .site__mockup .sitemockup {
         width: 38vw;
         height: 38vw;
         top: 5%;
         left: 27%;
     }
+
     .sec3 .site__wrap .site__box .site__desc {
         width: 100%;
     }
+
     .sec3 .site__wrap .site__box .site__desc h3 {
         margin-top: 10vw;
         font-size: 5vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc p {
         margin-top: 5vw;
         width: 70%;
         font-size: 1.5vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc .site__btn {
         width: 45%;
         margin-top: 6vw;
         font-size: 1.5vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc .site__btn .btn__right a {
         padding: 1.5vw 1.5vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc .site__btn .btn__left a {
         padding: 1.5vw 1.5vw;
     }
@@ -710,35 +737,43 @@ body {
     .sec3 .site__wrap {
         width: 90%;
     }
+
     .sec3 .site__wrap .site__box .site__mockup {
         height: 40%;
     }
+
     .sec3 .site__wrap .site__box .site__mockup .sitemockup {
         width: 60vw;
         height: 60vw;
         top: 5vw;
         left: 13vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc {
         width: 100%;
     }
+
     .sec3 .site__wrap .site__box .site__desc h3 {
         margin-top: 10vw;
         font-size: 6vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc p {
         margin-top: 7vw;
         width: 72%;
         font-size: 3vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc .site__btn {
         margin-top: 10vw;
         font-size: 3vw;
         width: 70%;
     }
+
     .sec3 .site__wrap .site__box .site__desc .site__btn .btn__right a {
         padding: 2vw 2vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc .site__btn .btn__left a {
         padding: 2vw 2vw;
     }
