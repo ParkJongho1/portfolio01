@@ -123,14 +123,14 @@ body {
 
 .sec1 .title .t1 {
     -webkit-text-stroke: 3px #000;
-    transform: translateY(-500px);
+    transform: translateY(-1000px);
     /* opacity: 0; */
 }
 
 .sec1 .title .t2 {
     color: #ffdc81;
     -webkit-text-stroke: 3px #000;
-    transform: translateY(500px);
+    transform: translateY(1000px);
 }
 
 /* .sec1 .title .t3 {
