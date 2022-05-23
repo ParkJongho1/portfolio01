@@ -509,6 +509,7 @@ body {
     border: 3px solid #000;
     border-radius: 50px;
     box-shadow: 15px 15px #000;
+    display: flex;
 }
 
 .sec3 .site__wrap .site__box {
@@ -517,7 +518,6 @@ body {
     left: 0;
     margin-top: 3vw;
     background: #FDFAE5;
-    display: flex;
 }
 
 .sec3 .site__wrap .site__box .site__mockup {
@@ -527,28 +527,28 @@ body {
 
 .sec3 .site__wrap .site__box .site__mockup .sitebg {
     position: absolute;
-    width: 22vw;
-    height: 22vw;
+    width: 25vw;
+    height: 25vw;
     background: #f1e99a;
     border-radius: 100%;
-    top: 6vw;
-    left: 5vw;
+    top: 2vw;
+    left: 3vw;
 }
 
 .sec3 .site__wrap .site__box .site__mockup .sitelogo {
     position: absolute;
-    width: 9vw;
-    height: 9vw;
-    top: 3vw;
-    left: 3vw;
+    width: 7vw;
+    height: 7vw;
+    top: 0vw;
+    left: 7vw;
 }
 
 .sec3 .site__wrap .site__box .site__mockup .sitemockup {
     position: absolute;
-    width: 22vw;
-    height: 22vw;
-    top: 8vw;
-    left: 12vw;
+    width: 28vw;
+    height: 28vw;
+    top: 5vw;
+    left: 7vw;
 }
 
 .sec3 .site__wrap .site__box .site__desc {
@@ -597,7 +597,7 @@ body {
     background: #f3e780;
     border-radius: 50px;
 }
-
+/* sitebox */
 .sec3 .site__wrap .site__box01 {
     position: sticky;
     top: 10vw;
@@ -605,7 +605,84 @@ body {
     margin-top: 20vmax;
     background: #E7FFF1;
 }
+.sec3 .site__wrap .site__box01 .site__mockup {
+    width: 50%;
+    height: 100%;
+}
 
+.sec3 .site__wrap .site__box01 .site__mockup .sitebg {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    background: #0AB250;
+    border-radius: 100%;
+    top: 2vw;
+    left: 3vw;
+}
+
+.sec3 .site__wrap .site__box01 .site__mockup .sitelogo {
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 0vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box01 .site__mockup .sitemockup {
+    position: absolute;
+    width: 28vw;
+    height: 28vw;
+    top: 5vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box01 .site__desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3 .site__wrap .site__box01 .site__desc h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 3.5vw;
+    color: #0AB250;
+}
+
+.sec3 .site__wrap .site__box01 .site__desc p {
+    width: 78%;
+    text-align: left;
+    font-family: "JUA";
+    font-size: 1.15vw;
+    margin-top: 3.5vw;
+    color: #074A23;
+}
+
+.sec3 .site__wrap .site__box01 .site__desc .site__btn {
+    width: 80%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Geostar";
+    font-size: 1.2vw;
+}
+
+.sec3 .site__wrap .site__box01 .site__desc .site__btn .btn__right a {
+    color: #00843B;
+    padding: 1.3vw 1.2vw;
+    background: #E7F7E5;
+    border-radius: 50px;
+}
+
+.sec3 .site__wrap .site__box01 .site__desc .site__btn .btn__left a {
+    color: #00843B;
+    padding: 1.3vw 1.2vw;
+    background: #E7F7E5;
+    border-radius: 50px;
+}
+/* //sitebox01 */
 .sec3 .site__wrap .site__box02 {
     position: sticky;
     top: 10vw;
@@ -664,56 +741,96 @@ body {
     }
 
     .sec3 .site__wrap .sitebox {
-        height: 70vh;
+        height: 75vh;
         flex-direction: column;
         top: 25vw;
     }
 
-    .sec3 .site__wrap .site__box .site__mockup {
+    .sec3 .site__wrap .site__box .site__mockup,
+    .sec3 .site__wrap .site__box01 .site__mockup,
+    .sec3 .site__wrap .site__box02 .site__mockup,
+    .sec3 .site__wrap .site__box03 .site__mockup,
+    .sec3 .site__wrap .site__box04 .site__mockup {
         height: 40%;
     }
 
-    .sec3 .site__wrap .site__box .site__mockup .sitebg {
+    .sec3 .site__wrap .site__box .site__mockup .sitebg,
+    .sec3 .site__wrap .site__box01 .site__mockup .sitebg,
+    .sec3 .site__wrap .site__box02 .site__mockup .sitebg,
+    .sec3 .site__wrap .site__box03 .site__mockup .sitebg,
+    .sec3 .site__wrap .site__box04 .site__mockup .sitebg {
         display: none;
     }
 
-    .sec3 .site__wrap .site__box .site__mockup .sitelogo {
+    .sec3 .site__wrap .site__box .site__mockup .sitelogo, 
+    .sec3 .site__wrap .site__box01 .site__mockup .sitelogo, 
+    .sec3 .site__wrap .site__box02 .site__mockup .sitelogo,
+    .sec3 .site__wrap .site__box03 .site__mockup .sitelogo, 
+    .sec3 .site__wrap .site__box04 .site__mockup .sitelogo {
         display: none;
     }
 
-    .sec3 .site__wrap .site__box .site__mockup .sitemockup {
+    .sec3 .site__wrap .site__box .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box01 .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box02 .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box03 .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box04 .site__mockup .sitemockup {
         width: 38vw;
         height: 38vw;
         top: 5%;
         left: 27%;
     }
 
-    .sec3 .site__wrap .site__box .site__desc {
+     .sec3 .site__wrap .site__box .site__desc,
+     .sec3 .site__wrap .site__box01 .site__desc,
+     .sec3 .site__wrap .site__box02 .site__desc,
+     .sec3 .site__wrap .site__box03 .site__desc, 
+     .sec3 .site__wrap .site__box04 .site__desc {
         width: 100%;
     }
 
-    .sec3 .site__wrap .site__box .site__desc h3 {
+    .sec3 .site__wrap .site__box .site__desc h3,
+    .sec3 .site__wrap .site__box01 .site__desc h3,
+    .sec3 .site__wrap .site__box02 .site__desc h3,
+    .sec3 .site__wrap .site__box03 .site__desc h3,
+    .sec3 .site__wrap .site__box04 .site__desc h3 {
         margin-top: 10vw;
-        font-size: 5vw;
+        font-size: 3vmax;
     }
 
-    .sec3 .site__wrap .site__box .site__desc p {
+    .sec3 .site__wrap .site__box .site__desc p,
+    .sec3 .site__wrap .site__box01 .site__desc p,
+    .sec3 .site__wrap .site__box02 .site__desc p,
+    .sec3 .site__wrap .site__box03 .site__desc p,
+    .sec3 .site__wrap .site__box04 .site__desc p {
         margin-top: 5vw;
         width: 70%;
+        font-size: 1.5vmax;
+    }
+
+    .sec3 .site__wrap .site__box .site__desc .site__btn,
+    .sec3 .site__wrap .site__box01 .site__desc .site__btn,
+    .sec3 .site__wrap .site__box02 .site__desc .site__btn,
+    .sec3 .site__wrap .site__box03 .site__desc .site__btn,
+    .sec3 .site__wrap .site__box04 .site__desc .site__btn {
+        width: 55%;
+        margin-top: 8vw;
         font-size: 1.5vw;
     }
 
-    .sec3 .site__wrap .site__box .site__desc .site__btn {
-        width: 45%;
-        margin-top: 6vw;
-        font-size: 1.5vw;
-    }
-
-    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__right a {
+    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box01 .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__right a {
         padding: 1.5vw 1.5vw;
     }
 
-    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__left a {
+    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box01 .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__left a {
         padding: 1.5vw 1.5vw;
     }
 }
@@ -723,43 +840,66 @@ body {
         width: 90%;
     }
 
-    .sec3 .site__wrap .site__box .site__mockup {
+    .sec3 .site__wrap .site__box .site__mockup,
+    .sec3 .site__wrap .site__box01 .site__mockup,
+    .sec3 .site__wrap .site__box02 .site__mockup,
+    .sec3 .site__wrap .site__box03 .site__mockup,
+    .sec3 .site__wrap .site__box04 .site__mockup {
         height: 40%;
     }
 
-    .sec3 .site__wrap .site__box .site__mockup .sitemockup {
+    .sec3 .site__wrap .site__box .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box01 .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box02 .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box03 .site__mockup .sitemockup,
+    .sec3 .site__wrap .site__box04 .site__mockup .sitemockup {
         width: 60vw;
         height: 60vw;
         top: 5vw;
         left: 13vw;
     }
-
-    .sec3 .site__wrap .site__box .site__desc {
-        width: 100%;
-    }
-
-    .sec3 .site__wrap .site__box .site__desc h3 {
+    .sec3 .site__wrap .site__box .site__desc h3,
+    .sec3 .site__wrap .site__box01 .site__desc h3,
+    .sec3 .site__wrap .site__box02 .site__desc h3,
+    .sec3 .site__wrap .site__box03 .site__desc h3,
+    .sec3 .site__wrap .site__box04 .site__desc h3 {
         margin-top: 10vw;
         font-size: 6vw;
     }
 
-    .sec3 .site__wrap .site__box .site__desc p {
+    .sec3 .site__wrap .site__box .site__desc p,
+    .sec3 .site__wrap .site__box01 .site__desc p,
+    .sec3 .site__wrap .site__box02 .site__desc p,
+    .sec3 .site__wrap .site__box03 .site__desc p,
+    .sec3 .site__wrap .site__box04 .site__desc p {
         margin-top: 7vw;
         width: 72%;
         font-size: 3vw;
     }
 
-    .sec3 .site__wrap .site__box .site__desc .site__btn {
+    .sec3 .site__wrap .site__box .site__desc .site__btn,
+    .sec3 .site__wrap .site__box01 .site__desc .site__btn,
+    .sec3 .site__wrap .site__box02 .site__desc .site__btn,
+    .sec3 .site__wrap .site__box03 .site__desc .site__btn,
+    .sec3 .site__wrap .site__box04 .site__desc .site__btn {
         margin-top: 10vw;
         font-size: 3vw;
         width: 70%;
     }
 
-    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__right a {
+    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box01 .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__right a,
+    .sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__right a {
         padding: 2vw 2vw;
     }
 
-    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__left a {
+    .sec3 .site__wrap .site__box .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box01 .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__left a,
+    .sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__left a {
         padding: 2vw 2vw;
     }
 }
