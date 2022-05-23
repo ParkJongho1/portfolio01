@@ -157,6 +157,8 @@ body {
 /* sec2 */
 .sec2 {
     width: 100%;
+    position: relative;
+    z-index: 2000;
 }
 
 .sec2 .about {
