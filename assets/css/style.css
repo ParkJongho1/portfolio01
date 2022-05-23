@@ -1,5 +1,3 @@
-
-
 * {
     margin: 0;
     padding: 0;
@@ -597,6 +595,7 @@ body {
     background: #f3e780;
     border-radius: 50px;
 }
+
 /* sitebox */
 .sec3 .site__wrap .site__box01 {
     position: sticky;
@@ -605,6 +604,7 @@ body {
     margin-top: 20vmax;
     background: #E7FFF1;
 }
+
 .sec3 .site__wrap .site__box01 .site__mockup {
     width: 50%;
     height: 100%;
@@ -682,7 +682,9 @@ body {
     background: #cef5c9;
     border-radius: 50px;
 }
+
 /* //sitebox01 */
+
 .sec3 .site__wrap .site__box02 {
     position: sticky;
     top: 10vw;
@@ -690,6 +692,86 @@ body {
     margin-top: 20vmax;
     background: #E3F8FF;
 }
+
+.sec3 .site__wrap .site__box02 .site__mockup {
+    width: 50%;
+    height: 100%;
+}
+
+.sec3 .site__wrap .site__box02 .site__mockup .sitebg {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    background: #1AC6FC;
+    border-radius: 100%;
+    top: 2vw;
+    left: 3vw;
+}
+
+.sec3 .site__wrap .site__box02 .site__mockup .sitelogo {
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 0vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box02 .site__mockup .sitemockup {
+    position: absolute;
+    width: 28vw;
+    height: 28vw;
+    top: 5vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box02 .site__desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3 .site__wrap .site__box02 .site__desc h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 3.5vw;
+    color: #1AC6FC;
+}
+
+.sec3 .site__wrap .site__box02 .site__desc p {
+    width: 78%;
+    text-align: left;
+    font-family: "JUA";
+    font-size: 1.15vw;
+    margin-top: 3.5vw;
+    color: #036382;
+}
+
+.sec3 .site__wrap .site__box02 .site__desc .site__btn {
+    width: 80%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Geostar";
+    font-size: 1.2vw;
+}
+
+.sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__right a {
+    color: #1AC6FC;
+    padding: 1.3vw 1.2vw;
+    background: #D3F5FF;
+    border-radius: 50px;
+}
+
+.sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__left a {
+    color: #1AC6FC;
+    padding: 1.3vw 1.2vw;
+    background: #D3F5FF;
+    border-radius: 50px;
+}
+
+/* //sitebox02 */
 
 .sec3 .site__wrap .site__box03 {
     position: sticky;
@@ -699,6 +781,86 @@ body {
     background: #EEE7FF;
 }
 
+.sec3 .site__wrap .site__box03 .site__mockup {
+    width: 50%;
+    height: 100%;
+}
+
+.sec3 .site__wrap .site__box03 .site__mockup .sitebg {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    background: #8B55FF;
+    border-radius: 100%;
+    top: 2vw;
+    left: 3vw;
+}
+
+.sec3 .site__wrap .site__box03 .site__mockup .sitelogo {
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 0vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box03 .site__mockup .sitemockup {
+    position: absolute;
+    width: 28vw;
+    height: 28vw;
+    top: 5vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box03 .site__desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3 .site__wrap .site__box03 .site__desc h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 3.5vw;
+    color: #9F72FF;
+}
+
+.sec3 .site__wrap .site__box03 .site__desc p {
+    width: 78%;
+    text-align: left;
+    font-family: "JUA";
+    font-size: 1.15vw;
+    margin-top: 3.5vw;
+    color: #4614AF;
+}
+
+.sec3 .site__wrap .site__box03 .site__desc .site__btn {
+    width: 80%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Geostar";
+    font-size: 1.2vw;
+}
+
+.sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__right a {
+    color: #9F72FF;
+    padding: 1.3vw 1.2vw;
+    background: #DFD2FD;
+    border-radius: 50px;
+}
+
+.sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__left a {
+    color: #9F72FF;
+    padding: 1.3vw 1.2vw;
+    background: #DFD2FD;
+    border-radius: 50px;
+}
+
+/* //sitebox03 */
+
 .sec3 .site__wrap .site__box04 {
     position: sticky;
     top: 10vw;
@@ -706,6 +868,86 @@ body {
     margin-top: 20vmax;
     background: #FBEBF3;
 }
+
+.sec3 .site__wrap .site__box04 .site__mockup {
+    width: 50%;
+    height: 100%;
+}
+
+.sec3 .site__wrap .site__box04 .site__mockup .sitebg {
+    position: absolute;
+    width: 25vw;
+    height: 25vw;
+    background: #FF3194;
+    border-radius: 100%;
+    top: 2vw;
+    left: 3vw;
+}
+
+.sec3 .site__wrap .site__box04 .site__mockup .sitelogo {
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 0vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box04 .site__mockup .sitemockup {
+    position: absolute;
+    width: 28vw;
+    height: 28vw;
+    top: 5vw;
+    left: 7vw;
+}
+
+.sec3 .site__wrap .site__box04 .site__desc {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec3 .site__wrap .site__box04 .site__desc h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 3.5vw;
+    margin-top: 3.5vw;
+    color: #FF3194;
+}
+
+.sec3 .site__wrap .site__box04 .site__desc p {
+    width: 78%;
+    text-align: left;
+    font-family: "JUA";
+    font-size: 1.15vw;
+    margin-top: 3.5vw;
+    color: #AC0053;
+}
+
+.sec3 .site__wrap .site__box04 .site__desc .site__btn {
+    width: 80%;
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Geostar";
+    font-size: 1.2vw;
+}
+
+.sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__right a {
+    color: #FF3194;
+    padding: 1.3vw 1.2vw;
+    background: #FFC5E1;
+    border-radius: 50px;
+}
+
+.sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__left a {
+    color: #FF3194;
+    padding: 1.3vw 1.2vw;
+    background: #FFC5E1;
+    border-radius: 50px;
+}
+
+/* sitebox04 */
 
 /* section3 */
 
@@ -762,10 +1004,10 @@ body {
         display: none;
     }
 
-    .sec3 .site__wrap .site__box .site__mockup .sitelogo, 
-    .sec3 .site__wrap .site__box01 .site__mockup .sitelogo, 
+    .sec3 .site__wrap .site__box .site__mockup .sitelogo,
+    .sec3 .site__wrap .site__box01 .site__mockup .sitelogo,
     .sec3 .site__wrap .site__box02 .site__mockup .sitelogo,
-    .sec3 .site__wrap .site__box03 .site__mockup .sitelogo, 
+    .sec3 .site__wrap .site__box03 .site__mockup .sitelogo,
     .sec3 .site__wrap .site__box04 .site__mockup .sitelogo {
         display: none;
     }
@@ -775,17 +1017,17 @@ body {
     .sec3 .site__wrap .site__box02 .site__mockup .sitemockup,
     .sec3 .site__wrap .site__box03 .site__mockup .sitemockup,
     .sec3 .site__wrap .site__box04 .site__mockup .sitemockup {
-        width: 38vw;
-        height: 38vw;
-        top: 5%;
-        left: 27%;
+        width: 60%;
+        height: 38%;
+        top: 8%;
+        left: 21%;
     }
 
-     .sec3 .site__wrap .site__box .site__desc,
-     .sec3 .site__wrap .site__box01 .site__desc,
-     .sec3 .site__wrap .site__box02 .site__desc,
-     .sec3 .site__wrap .site__box03 .site__desc, 
-     .sec3 .site__wrap .site__box04 .site__desc {
+    .sec3 .site__wrap .site__box .site__desc,
+    .sec3 .site__wrap .site__box01 .site__desc,
+    .sec3 .site__wrap .site__box02 .site__desc,
+    .sec3 .site__wrap .site__box03 .site__desc,
+    .sec3 .site__wrap .site__box04 .site__desc {
         width: 100%;
     }
 
@@ -813,9 +1055,9 @@ body {
     .sec3 .site__wrap .site__box02 .site__desc .site__btn,
     .sec3 .site__wrap .site__box03 .site__desc .site__btn,
     .sec3 .site__wrap .site__box04 .site__desc .site__btn {
-        width: 55%;
-        margin-top: 8vw;
-        font-size: 1.5vw;
+        width: 65%;
+        margin-top: 10vw;
+        font-size: 2.2vw;
     }
 
     .sec3 .site__wrap .site__box .site__desc .site__btn .btn__right a,
@@ -823,7 +1065,7 @@ body {
     .sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__right a,
     .sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__right a,
     .sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__right a {
-        padding: 1.5vw 1.5vw;
+        padding: 3vw 3vw;
     }
 
     .sec3 .site__wrap .site__box .site__desc .site__btn .btn__left a,
@@ -831,7 +1073,7 @@ body {
     .sec3 .site__wrap .site__box02 .site__desc .site__btn .btn__left a,
     .sec3 .site__wrap .site__box03 .site__desc .site__btn .btn__left a,
     .sec3 .site__wrap .site__box04 .site__desc .site__btn .btn__left a {
-        padding: 1.5vw 1.5vw;
+        padding: 3vw 3vw;
     }
 }
 
@@ -858,6 +1100,7 @@ body {
         top: 5vw;
         left: 13vw;
     }
+
     .sec3 .site__wrap .site__box .site__desc h3,
     .sec3 .site__wrap .site__box01 .site__desc h3,
     .sec3 .site__wrap .site__box02 .site__desc h3,
