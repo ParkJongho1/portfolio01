@@ -13,7 +13,6 @@
 
 <body>
   <div class="scrollTop">0</div>
-  <div id='skrollr-body'>
     <header id="header">
       <nav id="nav">
         <ul>
@@ -276,7 +275,6 @@
       <!-- //sec6 -->
 
     </div>
-  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
@@ -285,8 +283,19 @@
     const title01 = document.querySelector(".t1");
   const title02 = document.querySelector(".t2");
   const timg = document.querySelector(".title__img");
-  // title01.innerHTML = title01.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
-  // title02.innerHTML = title02.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  title01.innerHTML = title01.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  title02.innerHTML = title02.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+  // for(let i=1; i<=title01.length; i++){
+  //   setTimeout(() => {
+  //     gsap.to("t1", {
+  //       ease:"bounce.out", 
+  //       duration:2,
+  //       y: 0,
+  //       x: 0,
+  //       delay: 1
+  //     })
+  //   }, 100 * i);
+  // }
    gsap.to(".t1", {
     ease:"bounce.out", 
     duration:2,
