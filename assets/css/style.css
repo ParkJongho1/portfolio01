@@ -1,19 +1,4 @@
-#skrollr-body {}
 
-#skrollr-body div.container {
-    height: 1000px;
-}
-
-#skrollr-body div.container>div {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-    position: fixed;
-    top: 50%;
-    left: 0;
-    margin-top: -20px;
-}
 
 * {
     margin: 0;
