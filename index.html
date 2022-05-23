@@ -19,18 +19,18 @@
         <li>
           <div class="bg" data-0="width:0%" ; data-1000="width: 100%; background: #ffdc81;" ;></div>
           <a href="">PORTFOLIO</a>
-          <img src="assets/img/portmoving.svg" alt="">
+          <img src="assets/img/portmoving01.svg" alt="">
 
         </li>
         <li>
           <div class="bg" data-1100="width:0%" ; data-2800="width: 100%; background: #ffdc81;" ;></div>
           <a href="">ABOUT</a>
-          <img src="assets/img/portmoving.svg" alt="">
+          <img src="assets/img/portmoving01.svg" alt="">
         </li>
         <li>
           <div class="bg" data-2800="width:0%" ; data-10000="width: 100%; background: #ffdc81;" ;></div>
           <a href="">WORK</a>
-          <img src="assets/img/portmoving.svg" alt="">
+          <img src="assets/img/portmoving01.svg" alt="">
         </li>
         <li><a href="">CONTACT</a></li>
       </ul>
@@ -50,7 +50,8 @@
         data-1000="bottom: 2vw; right: 2vw; width: 9vw; height: 9vw; transform: rotate(360deg); padding: 0px;" ;>
 
     </div>
-    <!-- sec1 -->
+    <!-- //sec1 -->
+
     <div class="sec2 brown">
       <div class="about">
         <h3>ABOUT</h3>
@@ -170,8 +171,8 @@
         </div>
       </div>
     </div>
+    <!-- //sec2 -->
 
-    <!-- sec2 -->
     <div class="sec3 brown">
       <div class="rolling__line">
         <div class="line__yellow">
@@ -226,6 +227,14 @@
       <div class="site__wrap">
         <h2>SITEWORK</h2>
         <div class="site__box .sitebox">
+          <div class="site__mockup">
+            <div class="sitebg"></div>
+            <img src="assets/img/sitelogo01.svg" alt="" class="sitelogo">
+            <img src="assets/img/mockup00.svg" alt="" class="sitemockup">
+          </div>
+          <div class="site__desc">
+            <!-- <h3>WEBSTANDARD</h3> -->
+          </div>
         </div>
         <div class="site__box01 .sitebox">
         </div>
@@ -237,15 +246,18 @@
         </div>
       </div>
     </div>
+    <!-- //sec3 -->
 
+    <div class="sec4 brown">
+      
+    </div>
+    <!-- //sec4 -->
 
-    <!-- sec3 -->
-    <div class="sec4 brown"></div>
-    <!-- sec4 -->
     <div class="sec5 brown"></div>
-    <!-- sec5 -->
+    <!-- //ec5 -->
+
     <div class="sec6"></div>
-    <!-- sec6 -->
+    <!-- //sec6 -->
 
   </div>
 
@@ -329,42 +341,43 @@
             ease:"ease-in", 
             duration:2,
             stagger: 0.1,
-            delay: 0.3
+            delay: 0.8
           });
           gsap.to(at2, {
             opacity: 1,
             ease:"ease-in", 
             duration:2,
             stagger: 0.1,
-            delay: 0.8
+            delay: 1.6
           });
           gsap.to(at3, {
             opacity: 1,
             ease:"ease-in", 
             duration:2,
             stagger: 0.1,
-            delay: 1.3
+            delay: 2.4
           });
           gsap.to(at4, {
             opacity: 1,
             ease:"ease-in", 
             duration:2,
             stagger: 0.1,
-            delay: 1.8
+            delay: 3.2
           });
           gsap.to(at5, {
             opacity: 1,
             ease:"linear", 
             duration:2,
             stagger: 0.1,
-            delay: 2.3
+            delay: 4.0
           });
           gsap.to(atimg, {
+            y: 0,
             opacity: 1,
             ease:"linear", 
-            duration:2,
+            duration:1.5,
             stagger: 0.1,
-            delay: 2.6
+            delay: 4.5
           });
         }
         requestAnimationFrame(scroll)
