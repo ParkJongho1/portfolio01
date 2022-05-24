@@ -1179,8 +1179,8 @@ body {
     .sec3 .site__wrap .site__box03 .box .mockup .mockupview,
     .sec3 .site__wrap .site__box04 .box .mockup .mockupview,
     .sec3 .site__wrap .site__box05 .box .mockup .mockupview {
-        width: 35vmax;
-        height: 27vmax;
+        width: 40vw;
+        height: 32vw;
         position: absolute;
         top: 60%;
         left: 50%;
@@ -1197,7 +1197,7 @@ body {
     .sec3 .site__wrap .site__box01 .box .desc p,
     .sec3 .site__wrap .site__box02 .box .desc p,
     .sec3 .site__wrap .site__box03 .box .desc p,
-    .sec3 .site__wrap .site__box04 .box .desc p
+    .sec3 .site__wrap .site__box04 .box .desc p,
     .sec3 .site__wrap .site__box05 .box .desc p {
         width: 90%;
         font-size: 1.5vmax;
@@ -1242,4 +1242,25 @@ body {
     }
 }
 
-@media (max-width: 478px) {}
+@media (max-width: 478px) {
+    .sec3 .site__wrap .site__box01 .box .mockup .mockupview,
+    .sec3 .site__wrap .site__box02 .box .mockup .mockupview,
+    .sec3 .site__wrap .site__box03 .box .mockup .mockupview,
+    .sec3 .site__wrap .site__box04 .box .mockup .mockupview,
+    .sec3 .site__wrap .site__box05 .box .mockup .mockupview {
+        width: 25vmax;
+        height: 18vmax;
+    }
+    .sec3 .site__wrap .site__box01 .box .desc .btns .left,
+    .sec3 .site__wrap .site__box01 .box .desc .btns .right,
+    .sec3 .site__wrap .site__box02 .box .desc .btns .left,
+    .sec3 .site__wrap .site__box02 .box .desc .btns .right,
+    .sec3 .site__wrap .site__box03 .box .desc .btns .left,
+    .sec3 .site__wrap .site__box03 .box .desc .btns .right,
+    .sec3 .site__wrap .site__box04 .box .desc .btns .left,
+    .sec3 .site__wrap .site__box04 .box .desc .btns .right,
+    .sec3 .site__wrap .site__box05 .box .desc .btns .left,
+    .sec3 .site__wrap .site__box05 .box .desc .btns .right {
+        width: 100%;
+    }
+}
