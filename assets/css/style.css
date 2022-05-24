@@ -113,6 +113,10 @@ body {
     width: 100%;
     margin-top: 20vw;
 }
+#section05 {
+    width: 100%;
+    margin-top: 10vw;
+}
 
 .sec1 {
     width: 100%;
@@ -1081,6 +1085,98 @@ body {
     border-radius: 20px;
     box-shadow: 15px 15px #000;
     background: rgb(211, 142, 142);
+}
+
+/* //section04 */
+
+/* section05 */
+.sec5 {
+    width: 100%;
+}
+.sec5 .rolling__site {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 30vw;
+    margin-top: 2vw;
+}
+
+.sec5 .rolling__site .line__yellow {
+    width: 120%;
+    height: 8vw;
+    background: #38b8f3;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    position: absolute;
+    overflow: hidden;
+    top: 20vw;
+    left: -8vw;
+    transform-origin: 100%;
+    transform: rotate(8deg);
+}
+
+.sec5 .rolling__site .line__yellow .rolling01 {
+    display: flex;
+    align-items: center;
+    font-family: "Oi";
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    animation: marquee 29s linear infinite;
+    white-space: nowrap;
+}
+
+.sec5 .rolling__site .line__yellow p {
+    font-size: 2.5vw;
+    color: #fff;
+    margin-top: 0.5vw;
+    margin-right: 2vw;
+}
+
+.sec5 .rolling__site .line__yellow img {
+    width: 5vw;
+    height: 5vw;
+    margin-right: 2vw;
+
+}
+
+.sec5 .rolling__site .line__orange {
+    display: flex;
+    width: 120%;
+    height: 8vw;
+    background: #7a70fa;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    position: absolute;
+    overflow: hidden;
+    top: 20vw;
+    left: -8vw;
+    transform-origin: 0;
+    transform: rotate(-8deg);
+}
+
+.sec5 .rolling__site .line__orange .rolling01 {
+    display: flex;
+    align-items: center;
+    font-family: "Oi";
+    width: 100%;
+    height: 100%;
+    will-change: transform;
+    animation: marquee 29s linear infinite;
+    white-space: nowrap;
+}
+
+.sec5 .rolling__site .line__orange p {
+    font-size: 2.5vw;
+    /* color: #fff; */
+    margin-top: 0.5vw;
+    margin-right: 2vw;
+}
+
+.sec5 .rolling__site .line__orange img {
+    width: 5vw;
+    height: 5vw;
+    margin-right: 2vw;
 }
 
 
