@@ -110,7 +110,8 @@ body {
     z-index: 7000;
 }
 #section04 {
-    margin-top: 30vw;
+    width: 100%;
+    margin-top: 20vw;
 }
 
 .sec1 {
@@ -528,7 +529,7 @@ body {
     position: sticky;
     top: 10vw;
     left: 0;
-    margin-top: 10vw;
+    margin-top: 5vw;
     background: #E3F8FF;
 }
 
@@ -1030,8 +1031,58 @@ body {
     width: 100%;
 }
 .sec4 .rolling__script{
-
+    width: 100%;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    background: #fff;
 }
+.sec4 .rolling__script .rolling {
+    display: flex;
+    align-items: center;
+    will-change: transform;
+    animation: marquee 23s linear infinite;
+    white-space: nowrap;
+}
+.sec4 .rolling__script .rolling p {
+    font-family: "Oi";
+    font-size: 4vw;
+    padding: 2.2vw 0 1.5vw 0;
+    margin-right: 4vw;
+}
+.sec4 .rolling__script .rolling img {
+    width: 7vw;
+    height: 7vw;
+    margin-right: 4vw;
+}
+/* sec4 rolling */
+
+.sec4 .script__box01 {
+    width: 100%;
+    margin-top: 15vw;
+    display: flex;
+    justify-content:space-evenly
+}
+.sec4 .script__box01 .script__work {
+    width: 65%;
+    height: 35vw;
+    outline: 3px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+}
+.sec4 .script__box01 .script__work iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.sec4 .script__box01 .script__desc {
+    width: 20%;
+    height: 35vw;
+    outline: 3px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background: rgb(211, 142, 142);
+}
+
 
 
 
