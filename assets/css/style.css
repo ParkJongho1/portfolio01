@@ -215,7 +215,6 @@ body {
 
 .sec2 .about .about__info01 em {
     color: #000;
-    -webkit-text-stroke: 2px #000;
 }
 
 .sec2 .about .about__info02 {
@@ -226,7 +225,6 @@ body {
 
 .sec2 .about .about__info02 span {
     color: #000;
-    -webkit-text-stroke: 2px #000;
 }
 
 .sec2 .about .about__info02 em {
