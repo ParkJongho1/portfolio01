@@ -1104,7 +1104,7 @@ body {
 .sec5 .rolling__site .line__yellow {
     width: 120%;
     height: 8vw;
-    background: #38b8f3;
+    background: #FF450B;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
     position: absolute;
@@ -1144,7 +1144,7 @@ body {
     display: flex;
     width: 120%;
     height: 8vw;
-    background: #7a70fa;
+    background: #FFD110;
     border-top: 3px solid #000;
     border-bottom: 3px solid #000;
     position: absolute;
@@ -1177,6 +1177,7 @@ body {
     width: 5vw;
     height: 5vw;
     margin-right: 2vw;
+
 }
 
 
