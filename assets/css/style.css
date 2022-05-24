@@ -570,6 +570,7 @@ body {
 
 .sec3 .site__wrap .site__box01 .box .desc p {
     width: 83%;
+    height: 85%;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -577,7 +578,7 @@ body {
 }
 
 .sec3 .site__wrap .site__box01 .box .desc .btns {
-    margin: 4vw 0 0 2vw;
+    margin: 0 0 0 2vw;
     width: 82%;
     display: flex;
     justify-content: space-between;
@@ -669,6 +670,7 @@ body {
 
 .sec3 .site__wrap .site__box02 .box .desc p {
     width: 83%;
+    height: 85%;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -676,7 +678,7 @@ body {
 }
 
 .sec3 .site__wrap .site__box02 .box .desc .btns {
-    margin: 4vw 0 0 2vw;
+    margin: 0 0 0 2vw;
     width: 82%;
     display: flex;
     justify-content: space-between;
@@ -768,6 +770,7 @@ body {
 
 .sec3 .site__wrap .site__box03 .box .desc p {
     width: 83%;
+    height: 85%;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -775,7 +778,7 @@ body {
 }
 
 .sec3 .site__wrap .site__box03 .box .desc .btns {
-    margin: 4vw 0 0 2vw;
+    margin: 0 0 0 2vw;
     width: 82%;
     display: flex;
     justify-content: space-between;
@@ -867,6 +870,7 @@ body {
 
 .sec3 .site__wrap .site__box04 .box .desc p {
     width: 83%;
+    height: 85%;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -874,7 +878,7 @@ body {
 }
 
 .sec3 .site__wrap .site__box04 .box .desc .btns {
-    margin: 4vw 0 0 2vw;
+    margin: 0 0 0 2vw;
     width: 82%;
     display: flex;
     justify-content: space-between;
@@ -966,6 +970,7 @@ body {
 
 .sec3 .site__wrap .site__box05 .box .desc p {
     width: 83%;
+    height: 85%;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -973,7 +978,7 @@ body {
 }
 
 .sec3 .site__wrap .site__box05 .box .desc .btns {
-    margin: 4vw 0 0 2vw;
+    margin: 0 0 0 2vw;
     width: 82%;
     display: flex;
     justify-content: space-between;
@@ -1142,6 +1147,12 @@ body {
 }
 
 @media (max-width: 768px) {
+    .sec1 .title .t1 {
+        -webkit-text-stroke: 1px #000;
+    }
+    .sec1 .title .t2 {
+        -webkit-text-stroke: 1px #000;
+    }
     .sec3 .site__wrap {
         width: 80%;
     }
