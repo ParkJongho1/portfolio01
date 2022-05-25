@@ -372,13 +372,8 @@
             </div>
           </div>
         </div>
+      
       </div>
-    </div>
-  </section>
-  <!-- //section03 -->
-
-  <section id="section04" class="brown">
-    <div class="sec4 brown">
       <div class="rolling__script">
         <div class="rolling">
           <p>SCRIPT</p>
@@ -400,58 +395,20 @@
 
         </div>
       </div>
+    </div>
+  </section>
+  <!-- //section03 -->
+
+  <section id="section04" class="darkbrown">
+    <div class="sec4 darkbrown">
       <div class="script__box01">
-        <div class="script__work">
-          <iframe src="javascript/effect/parallaxEffect01.html" frameborder="0"></iframe>
-        </div>
-        <div class="script__desc">
-          <h3>PARALLAX <br>EFFECT</h3>
-          <p>JavaScript로 만든 여러가지 패럴랙스 효과입니다.
-            offset값을 이용하여
-            패럴렉스 효과를 구현하고,
-            부드러운 메뉴이동효과를 구현했습니다.
-          </p>
-          <div class="btn"><a href="#">VIEW</a></div>
-        </div>
+        <h3>제가 만든 스크립트입니다.</h3>
       </div>
-      <div class="script__box01">
-        <div class="script__desc"></div>
-        <div class="script__work">
-          <iframe src="javascript/effect/sliderEffect01.html" frameborder="0"></iframe>
-        </div>
-        
+      <div class="script__box02">
+        <div class="iframebox"></div>
+        <div class="descbox"></div>
       </div>
-      <div class="script__box01">
-        <div class="script__work">
-          <iframe src="javascript/effect/mouseEffect01.html" frameborder="0"></iframe>
-        </div>
-        <div class="script__desc"></div>
-      </div>
-      <div class="script__box01">
-        <div class="script__desc"></div>
-        <div class="script__work">
-          <iframe src="javascript/effect/quizEffect01.html" frameborder="0"></iframe>
-        </div>
-        
-      </div>
-      <div class="script__box01">
-        <div class="script__work">
-          <iframe src="javascript/effect/searchEffect01.html" frameborder="0"></iframe>
-        </div>
-        <div class="script__desc"></div>
-      </div>
-      <div class="script__box01">
-        <div class="script__desc"></div>
-        <div class="script__work">
-          <iframe src="javascript/effect/typingGame/index.html" frameborder="0"></iframe>
-        </div>
-      </div>
-      <div class="script__box01">
-        <div class="script__work">
-          <iframe src="javascript/effect/memoryGame/index2.html" frameborder="0"></iframe>
-        </div>
-        <div class="script__desc"></div>
-      </div>
+     
     </div>
   </section>
   <!-- //section04 -->
@@ -649,6 +606,13 @@
             delay: 4.5
           });
         }
+
+        let offset4 = scrollTop - document.querySelector("#section04").offsetTop;
+          if(scrollTop >= document.querySelector("#section04").offsetTop){
+            // document.querySelector(".sec4").style.backgroundColor = "blue";
+            gsap.to(".sec4", {left: -offset4, ease: "linear"})
+          }
+
         requestAnimationFrame(scroll)
     }
     scroll();
