@@ -1084,7 +1084,31 @@ body {
     outline: 3px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
-    background: rgb(211, 142, 142);
+    background: #fff;
+}
+.sec4 .script__box01 .script__desc h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+.sec4 .script__box01 .script__desc p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+}
+.sec4 .script__box01 .script__desc .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.sec4 .script__box01 .script__desc a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius:250px;
+    background: #000;
 }
 
 /* //section04 */
