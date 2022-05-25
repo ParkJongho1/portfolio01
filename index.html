@@ -9,9 +9,14 @@
   <link rel="stylesheet" href="assets/css/fonts.css" />
   <link rel="stylesheet" href="assets/css/reset.css" />
   <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/loading.css" />
 </head>
 
 <body>
+  <div id="loading">
+    <div class="cssload-box-loading"></div>
+  </div>
+  
   <div class="scrollTop">0</div>
   <header id="header">
     <nav id="nav">
@@ -33,12 +38,11 @@
           <img src="assets/img/portmoving01.svg" alt="">
         </li>
         <li>
-          <div class="bg" data-10800="width:0%" ; data-27000="width: 100%; background: #ffdc81;" ;></div>
+          <div class="bg" data-10800="width:0%" ; data-32000="width: 100%; background: #ffdc81;" ;></div>
           <a href="">WORK</a>
           <img src="assets/img/portmoving01.svg" alt="">
         </li>
         <li>
-          <div class="bg" data-27000="width:0%" ; data-35000="width: 100%; background: #ffdc81;" ;></div>
           <a href="">CONTACT</a>
         </li>
       </ul>
@@ -408,6 +412,7 @@
         <p><em>LET`S GO</em></p>
         <P><em>SEE</em></P>
         <p><em>PROJECT SCRIPT!!</em></p>
+        <div class="confetti"></div>
       </div>
       <div class="script__box02">
         <!-- <span>01</span> -->
@@ -574,6 +579,10 @@
   <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
   <script type="text/JavaScript" src="assets/js/skrollr.js"></script>
   <script type="module">
+    window.onload = function () {
+      document.getElementById("loading").style.display = "none";
+    }
+
   const title01 = document.querySelector(".t1");
   const title02 = document.querySelector(".t2");
   const timg = document.querySelector(".title__img");
@@ -1156,6 +1165,81 @@
     }
     
     // section04 시작효과
+    (function(){
+	const wrapper = document.querySelector(".confetti");
+	const isAnimationOk = window.matchMedia('(prefers-reduced-motion: no-preference)').matches;
+	const icons = [
+		"🎉",
+		"✨",
+		"💜",
+		"🖤",
+		"👸🏻",
+		"💻"
+	];
+	const iconCount = 18;
+	var elements = [];
+	
+	init();
+	
+	function init() {
+		for (let i = 0; i < iconCount; i++) {
+			createIcon();
+		}
+		
+		gsap.set(elements, {
+			transformOrigin: "50% 50%",
+			scale: 0
+		});
+	}
+	
+	function createIcon(icon) {
+		if(icon === null || icon === undefined) {
+			icon = document.createElement("span");
+			icon.classList.add("confetti__item");
+			wrapper.appendChild(icon);
+			elements.push(icon);
+		}
+		
+		icon.innerText = gsap.utils.random(icons);
+		if(isAnimationOk) animateIcon(icon);
+	}
+	
+	function animateIcon(icon) {
+		let durationFall = gsap.utils.random(1.75, 2.5);
+		let durationFade = .3;
+		let delay = gsap.utils.random(0, .75);
+		let xDirection = gsap.utils.random(0, 1) > .5 ? 1 : -1;
+		let x = (gsap.utils.random(0, window.outerWidth / 4) + 100) * xDirection;
+		let tl = new gsap.timeline();
+		
+		tl.to(icon, {
+			repeat: -1,
+			delay: delay,
+			keyframes: [{
+				scale: 1,
+				duration: .1
+			},
+			{
+				y: `random(${-window.outerHeight/4}, 0)`,
+				ease: Back.easeOut.config(5),
+				duration: durationFall
+			},
+			{
+				x: (gsap.utils.random(0, window.outerWidth / 4) + 100) * xDirection,
+				ease: "Power1.easeOut",
+				duration: durationFall,
+				delay: -durationFall
+			},
+			{
+				opacity: 0,
+				scale: 4,
+				ease: "Power1.easeOut",
+				duration: durationFade,
+				delay: -durationFade
+			}]
+		}, "<");
+	}
+}());
   </script>
 </body>
 
