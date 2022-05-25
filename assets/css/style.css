@@ -12,7 +12,9 @@ body {
     overflow-x: hidden;
     background-color: #f9f0dc;
 }
-
+body::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
 .brown {
     background-color: #f9f0dc;
 }
@@ -116,7 +118,7 @@ body {
 }
 #section04 {
     width: 100%;
-    height: 840vw;
+    height: 850vw;
 }
 
 #section05 {
