@@ -256,14 +256,14 @@
                 웹 접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수 있도록 고려하여 만든 사이트입니다.
               </p>
               <div class="btns">
-                <div class="left">
+                <a href="#" class="left">
                   <img src="assets/img/arrow01.svg" alt="">
-                  <a href="#">CODEVIEW</a>
-                </div>
-                <div class="right">
+                  <span>CODEVIEW</span>
+                </a>
+                <a href="#" class="right">
                   <img src="assets/img/arrow01.svg" alt="">
-                  <a href="#">SITEVIEW</a>
-                </div>
+                  <span>SITEVIEW</span>
+                </a>
               </div>
             </div>
           </div>
@@ -282,14 +282,14 @@
                 웹 접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수 있도록 고려하여 만든 사이트입니다.
               </p>
               <div class="btns">
-                <div class="left">
+                <a href="" class="left">
                   <img src="assets/img/arrow02.svg" alt="">
-                  <a href="#">CODEVIEW</a>
-                </div>
-                <div class="right">
+                  <span>CODEVIEW</span>
+                </a>
+                <a href="#" class="right">
                   <img src="assets/img/arrow02.svg" alt="">
-                  <a href="#">SITEVIEW</a>
-                </div>
+                  <span>SITEVIEW</span>
+                </a>
               </div>
             </div>
           </div>
@@ -309,14 +309,14 @@
                 React 라이브러리와 유튜브 API를 사용하여 제작한 사이트입니다. NETLIFY로 호스팅 했습니다.
               </p>
               <div class="btns">
-                <div class="left">
+                <a href="#" class="left">
                   <img src="assets/img/arrow03.svg" alt="">
-                  <a href="#">CODEVIEW</a>
-                </div>
-                <div class="right">
+                  <span>CODEVIEW</span>
+                </a>
+                <a href="#" class="right">
                   <img src="assets/img/arrow03.svg" alt="">
-                  <a href="#">SITEVIEW</a>
-                </div>
+                  <span>SITEVIEW</span>
+                </a>
               </div>
             </div>
           </div>
@@ -336,14 +336,14 @@
                 웹 접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수 있도록 고려하여 만든 사이트입니다.
               </p>
               <div class="btns">
-                <div class="left">
+                <a href="#" class="left">
                   <img src="assets/img/arrow04.svg" alt="">
-                  <a href="#">CODEVIEW</a>
-                </div>
-                <div class="right">
+                  <span>CODEVIEW</span>
+                </a>
+                <a href="#" class="right">
                   <img src="assets/img/arrow04.svg" alt="">
-                  <a href="#">SITEVIEW</a>
-                </div>
+                  <span>SITEVIEW</span>
+                </a>
               </div>
             </div>
           </div>
@@ -363,14 +363,14 @@
                 웹 접근성을 높여 모든 사용자들이 정보와 기능에 동등하게 접근할 수 있도록 고려하여 만든 사이트입니다.
               </p>
               <div class="btns">
-                <div class="left">
+                <a href="#" class="left">
                   <img src="assets/img/arrow05.svg" alt="">
-                  <a href="#">CODEVIEW</a>
-                </div>
-                <div class="right">
+                  <span>CODEVIEW</span>
+                </a>
+                <a href="#" class="right">
                   <img src="assets/img/arrow05.svg" alt="">
-                  <a href="#">SITEVIEW</a>
-                </div>
+                  <span>SITEVIEW</span>
+                </a>
               </div>
             </div>
           </div>
@@ -405,11 +405,12 @@
   <section id="section04" class="darkbrown">
     <div class="sec4 darkbrown">
       <div class="script__box01">
-        <p>LET`S GO</p>
-        <P>SEE</P>
-        <p>MY <em>PROJECT SCRIPT</em></p>
+        <p><em>LET`S GO</em></p>
+        <P><em>SEE</em></P>
+        <p><em>PROJECT SCRIPT!!</em></p>
       </div>
       <div class="script__box02">
+        <!-- <span>01</span> -->
         <div class="iframebox">
           <iframe src="javascript/effect/parallaxEffect01.html" frameborder="0"></iframe>
         </div>
@@ -570,6 +571,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
   <script type="text/JavaScript" src="assets/js/skrollr.js"></script>
   <script type="module">
   const title01 = document.querySelector(".t1");
@@ -697,7 +699,7 @@
             ease:"expo.out", 
             duration:3,
             stagger: 0.1,
-            delay: 4.5
+            delay: 4.0
           });
         }
 
@@ -1152,6 +1154,8 @@
 
       return blobWrapper.path(spline(points, 1, true)).fill("#000");
     }
+    
+    // section04 시작효과
   </script>
 </body>
 
