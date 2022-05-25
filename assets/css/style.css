@@ -116,7 +116,7 @@ body {
 }
 #section04 {
     width: 100%;
-    height: 700vw;
+    height: 840vw;
 }
 
 #section05 {
@@ -1100,7 +1100,7 @@ body {
     position: relative;
     display: flex;
     justify-content: space-between;
-    padding: 0 2%;
+    padding: 0 1%;
 }
 .sec4 .script__box02 .iframebox {
     width: 70%;
@@ -1145,6 +1145,336 @@ body {
     border-radius:250px;
     background: #000;
 }
+/* scriptbox02 */
+
+.sec4 .script__box03 {
+    width: 100vw;
+    height: 100vh;
+    top: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.sec4 .script__box03 .iframebox {
+    width: 70%;
+    height: 35vw;
+}
+.sec4 .script__box03 .iframebox iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    box-shadow: 15px 15px #000;
+}
+.sec4 .script__box03 .descbox {
+    width: 23%;
+    height: 35vw;
+    outline: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background-color: #F9F0DC;
+}
+.sec4 .script__box03 .descbox h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+.sec4 .script__box03 .descbox p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+}
+.sec4 .script__box03 .descbox .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.sec4 .script__box03 .descbox a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius:250px;
+    background: #000;
+}
+/* //scriptbox03 */
+
+.sec4 .script__box04 {
+    width: 100vw;
+    height: 100vh;
+    top: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.sec4 .script__box04 .iframebox {
+    width: 70%;
+    height: 35vw;
+}
+.sec4 .script__box04 .iframebox iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    box-shadow: 15px 15px #000;
+}
+.sec4 .script__box04 .descbox {
+    width: 23%;
+    height: 35vw;
+    outline: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background-color: #F9F0DC;
+}
+.sec4 .script__box04 .descbox h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+.sec4 .script__box04 .descbox p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+}
+.sec4 .script__box04 .descbox .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.sec4 .script__box04 .descbox a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius:250px;
+    background: #000;
+}
+/* //scriptbox04 */
+
+.sec4 .script__box05 {
+    width: 100vw;
+    height: 100vh;
+    top: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.sec4 .script__box05 .iframebox {
+    width: 70%;
+    height: 35vw;
+}
+.sec4 .script__box05 .iframebox iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    box-shadow: 15px 15px #000;
+}
+.sec4 .script__box05 .descbox {
+    width: 23%;
+    height: 35vw;
+    outline: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background-color: #F9F0DC;
+}
+.sec4 .script__box05 .descbox h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+.sec4 .script__box05 .descbox p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+}
+.sec4 .script__box05 .descbox .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.sec4 .script__box05 .descbox a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius:250px;
+    background: #000;
+}
+
+/*// scriptbox05 */
+
+.sec4 .script__box06 {
+    width: 100vw;
+    height: 100vh;
+    top: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.sec4 .script__box06 .iframebox {
+    width: 70%;
+    height: 35vw;
+}
+.sec4 .script__box06 .iframebox iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    box-shadow: 15px 15px #000;
+}
+.sec4 .script__box06 .descbox {
+    width: 23%;
+    height: 35vw;
+    outline: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background-color: #F9F0DC;
+}
+.sec4 .script__box06 .descbox h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+.sec4 .script__box06 .descbox p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+}
+.sec4 .script__box06 .descbox .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.sec4 .script__box06 .descbox a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius:250px;
+    background: #000;
+}
+
+/* //scriptbox06 */
+
+.sec4 .script__box07 {
+    width: 100vw;
+    height: 100vh;
+    top: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.sec4 .script__box07 .iframebox {
+    width: 70%;
+    height: 35vw;
+}
+.sec4 .script__box07 .iframebox iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    box-shadow: 15px 15px #000;
+}
+.sec4 .script__box07 .descbox {
+    width: 23%;
+    height: 35vw;
+    outline: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background-color: #F9F0DC;
+}
+.sec4 .script__box07 .descbox h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+.sec4 .script__box07 .descbox p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+}
+.sec4 .script__box07 .descbox .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.sec4 .script__box07 .descbox a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius:250px;
+    background: #000;
+}
+
+/* //scriptbox07 */
+
+.sec4 .script__box08 {
+    width: 100vw;
+    height: 100vh;
+    top: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+.sec4 .script__box08 .iframebox {
+    width: 70%;
+    height: 35vw;
+}
+.sec4 .script__box08 .iframebox iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    box-shadow: 15px 15px #000;
+}
+.sec4 .script__box08 .descbox {
+    width: 23%;
+    height: 35vw;
+    outline: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background-color: #F9F0DC;
+}
+.sec4 .script__box08 .descbox h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+.sec4 .script__box08 .descbox p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+}
+.sec4 .script__box08 .descbox .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+.sec4 .script__box08 .descbox a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius:250px;
+    background: #000;
+}
+
+/* //scriptbox08 */
+
 
 
 /* //section04 */
