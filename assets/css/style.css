@@ -138,11 +138,6 @@ body::-webkit-scrollbar {
 }
 #section06 {
     width: 100%;
-    margin-top: 10vw;
-}
-#section05 {
-    width: 100%;
-    margin-top: 10vw;
 }
 
 .sec1 {
@@ -1116,7 +1111,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box01 {
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     position: relative;
     top: 13vw;
     font-family: "Luckiest Guy";
@@ -1856,7 +1851,6 @@ body::-webkit-scrollbar {
     cursor: pointer;
     will-change: transform;
     position: relative;
-    background: rgba(255,255,255,0.1);
     font-size: 0;
     perspective: 500px;
   }
@@ -1876,6 +1870,19 @@ body::-webkit-scrollbar {
     border-radius: 40px;
     box-shadow: 12px 12px #000;
     margin: 0 2vw;
+    
+  }
+  .sb01 {
+    background-image: linear-gradient(to top, #a18cd1, #fbc2eb);
+  }
+  .sb02 {
+    background-image: linear-gradient(to top, #ff9a9e, #fad0c4);
+  }
+  .sb03 {
+    background-image: linear-gradient(to top, #84fab0, #8fd3f4);
+  }
+  .sb04 {
+    background-image: linear-gradient(to top, #d299c2, #fef9d7);
   }
 
 /* section05 */
@@ -1919,14 +1926,6 @@ body::-webkit-scrollbar {
     box-shadow: 12px 12px #000;
     position: relative;
 }
-.sec6 .contact__logo .logobox01 img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 3vw;
-    height: 3vw;
-}
 .sec6 .contact__logo .logobox02 {
     width: 10vw;
     height: 10vw;
@@ -1934,6 +1933,7 @@ body::-webkit-scrollbar {
     border-radius: 100%;
     background: #fff;
     box-shadow: 12px 12px #000;
+    position: relative;
 }
 .sec6 .contact__logo .logobox03 {
     width: 10vw;
@@ -1942,6 +1942,7 @@ body::-webkit-scrollbar {
     border-radius: 100%;
     background: #fff;
     box-shadow: 12px 12px #000;
+    position: relative;
 }
 .sec6 .contact__logo .logobox04 {
     width: 10vw;
@@ -1950,6 +1951,18 @@ body::-webkit-scrollbar {
     border-radius: 100%;
     background: #fff;
     box-shadow: 12px 12px #000;
+    position: relative;
+}
+.sec6 .contact__logo .logobox01 img,
+.sec6 .contact__logo .logobox02 img,
+.sec6 .contact__logo .logobox03 img,
+.sec6 .contact__logo .logobox04 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 3vw;
+    height: 3vw;
 }
 /* section06 */
 
