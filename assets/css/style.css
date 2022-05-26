@@ -1301,7 +1301,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box03 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
@@ -1364,7 +1364,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box04 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
@@ -1427,7 +1427,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box05 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
@@ -1490,7 +1490,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box06 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
@@ -1553,7 +1553,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box07 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
@@ -1616,7 +1616,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box08 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
@@ -1679,7 +1679,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box09 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
