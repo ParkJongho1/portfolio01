@@ -1887,20 +1887,58 @@ body::-webkit-scrollbar {
     padding-top: 10vw;
     text-align: center;
     font-family: "Oi";
-    font-size: 8vw;
     color: #fff;
     font-weight: 300;
 }
 .sec6 .contact p {
     color: #FB450C;
     -webkit-text-stroke: 3px #000;
+    font-size: 9vw;
+    line-height: 1;
 }
 .sec6 .contact em {
     color: #fff;
     -webkit-text-stroke: 3px #000;
+    font-size: 8vw;
 }
-.sec6 .contact_logo {
+.sec6 .contact__logo {
+    width: 60%;
+    margin: 0 auto;
     display: flex;
+    justify-content: space-around;
+
+}
+.sec6 .contact__logo .logobox01 {
+    width: 10vw;
+    height: 10vw;
+    border: #fff;
+    border-radius: 2px solid #000;
+    border-radius: 100%;
+    background: #000;
+}
+.sec6 .contact__logo .logobox02 {
+    width: 10vw;
+    height: 10vw;
+    border: #fff;
+    border-radius: 2px solid #000;
+    border-radius: 100%;
+    background: #000;
+}
+.sec6 .contact__logo .logobox03 {
+    width: 10vw;
+    height: 10vw;
+    border: #fff;
+    border-radius: 2px solid #000;
+    border-radius: 100%;
+    background: #000;
+}
+.sec6 .contact__logo .logobox04 {
+    width: 10vw;
+    height: 10vw;
+    border: #fff;
+    border-radius: 2px solid #000;
+    border-radius: 100%;
+    background: #000;
 }
 /* section06 */
 
@@ -1991,6 +2029,7 @@ body::-webkit-scrollbar {
     .sec3 .site__wrap .site__box03 .box .desc p,
     .sec3 .site__wrap .site__box04 .box .desc p .sec3 .site__wrap .site__box05 .box .desc p {
         width: 82%;
+        height: 82%;
         font-size: 1.4vmax;
         text-align: center;
     }
