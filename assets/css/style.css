@@ -623,7 +623,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box01 .box .desc p {
     width: 83%;
-    height: 28vh;
+    height: 15vw;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -724,7 +724,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box02 .box .desc p {
     width: 83%;
-    height: 28vh;
+    height: 15vw;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -824,7 +824,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box03 .box .desc p {
     width: 83%;
-    height: 28vh;
+    height: 15vw;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -924,7 +924,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box04 .box .desc p {
     width: 83%;
-    height: 28vh;
+    height: 15vw;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -1024,7 +1024,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box05 .box .desc p {
     width: 83%;
-    height: 28vh;
+    height: 15vw;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -1248,7 +1248,7 @@ body::-webkit-scrollbar {
 } */
 .sec4 .script__box02 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box02 .iframebox iframe {
@@ -1261,7 +1261,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box02 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1280,7 +1280,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-    height: 30vh;
+    height: 15vw;
 }
 
 .sec4 .script__box02 .descbox .btn {
@@ -1311,7 +1311,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box03 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box03 .iframebox iframe {
@@ -1324,7 +1324,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box03 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1343,7 +1343,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-    height: 30vh;
+    height: 15vw;
 }
 
 .sec4 .script__box03 .descbox .btn {
@@ -1374,7 +1374,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box04 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box04 .iframebox iframe {
@@ -1387,7 +1387,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box04 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1406,7 +1406,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 30vh;
+     height: 15vw;
 }
 
 .sec4 .script__box04 .descbox .btn {
@@ -1437,7 +1437,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box05 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box05 .iframebox iframe {
@@ -1450,7 +1450,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box05 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1469,7 +1469,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 30vh;
+     height: 15vw;
 }
 
 .sec4 .script__box05 .descbox .btn {
@@ -1500,7 +1500,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box06 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box06 .iframebox iframe {
@@ -1513,7 +1513,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box06 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1532,7 +1532,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 30vh;
+     height: 15vw;
 }
 
 .sec4 .script__box06 .descbox .btn {
@@ -1563,7 +1563,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box07 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box07 .iframebox iframe {
@@ -1576,7 +1576,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box07 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1595,7 +1595,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 30vh;
+     height: 15vw;
 }
 
 .sec4 .script__box07 .descbox .btn {
@@ -1626,7 +1626,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box08 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box08 .iframebox iframe {
@@ -1639,7 +1639,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box08 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1658,7 +1658,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 30vh;
+     height: 15vw;
 }
 
 .sec4 .script__box08 .descbox .btn {
@@ -1689,7 +1689,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box09 .iframebox {
     width: 70%;
-    height: 35vw;
+    height: 70vh;
 }
 
 .sec4 .script__box09 .iframebox iframe {
@@ -1702,7 +1702,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box09 .descbox {
     width: 23%;
-    height: 35vw;
+    height: 70vh;
     outline: 2px solid #000;
     border-radius: 20px;
     box-shadow: 15px 15px #000;
@@ -1721,7 +1721,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-    height: 30vh;
+    height: 15vw;
 }
 
 .sec4 .script__box09 .descbox .btn {
@@ -1836,45 +1836,47 @@ body::-webkit-scrollbar {
 /* section05 rolling */
 
 /* studybox */
-.sec5 .study {
-    width: 200%;
-    margin-top: 5vw;
-}
-.sec5 .study .study__box {
+.study {
+    min-height: 100vh;
     display: flex;
-    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin: 0;
 }
-.sec5 .study .study__box .study__box01 {
-    width: 30vw;
+.studybox {
+    height: 100%;
+    width: 100%;
+    padding: 3vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+    will-change: transform;
+    position: relative;
+    background: rgba(255,255,255,0.1);
+    font-size: 0;
+    perspective: 500px;
+  }
+  
+  .studybox.active {
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
+  }
+  
+  .study__box {
+    width: 35vw;
     height: 35vw;
-    margin: 0 1vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid #000;
     border-radius: 40px;
     box-shadow: 12px 12px #000;
-}
-.sec5 .study .study__box .study__box02 {
-    width: 30vw;
-    height: 35vw;
-    border: 2px solid #000;
-    margin: 0 1vw;
-    border-radius: 40px;
-    box-shadow: 12px 12px #000;
-}
-.sec5 .study .study__box .study__box03 {
-    width: 30vw;
-    height: 35vw;
-    border: 2px solid #000;
-    margin: 0 1vw;
-    border-radius: 40px;
-    box-shadow: 12px 12px #000;
-}
-.sec5 .study .study__box .study__box04 {
-    width: 30vw;
-    height: 35vw;
-    border: 2px solid #000;
-    border-radius: 40px;
-    box-shadow: 12px 12px #000;
-}
+    margin: 0 2vw;
+  }
 
 /* section05 */
 
@@ -2036,7 +2038,8 @@ body::-webkit-scrollbar {
     .sec3 .site__wrap .site__box01 .box .desc p,
     .sec3 .site__wrap .site__box02 .box .desc p,
     .sec3 .site__wrap .site__box03 .box .desc p,
-    .sec3 .site__wrap .site__box04 .box .desc p .sec3 .site__wrap .site__box05 .box .desc p {
+    .sec3 .site__wrap .site__box04 .box .desc p, 
+    .sec3 .site__wrap .site__box05 .box .desc p {
         width: 82%;
         height: 82%;
         font-size: 1.4vmax;
