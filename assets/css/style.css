@@ -125,7 +125,7 @@ body::-webkit-scrollbar {
 
 #section04 {
     width: 100%;
-    height: 850vw;
+    height: 950vw;
 }
 
 #section05 {
@@ -158,7 +158,6 @@ body::-webkit-scrollbar {
     transform: translateY(-1000px);
     /* opacity: 0; */
 }
-
 .sec1 .title .t2 {
     color: #ffdc81;
     -webkit-text-stroke: 3px #000;
@@ -613,7 +612,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box01 .box .desc p {
     width: 83%;
-    height: 85%;
+    height: 28vh;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -714,7 +713,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box02 .box .desc p {
     width: 83%;
-    height: 85%;
+    height: 28vh;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -814,7 +813,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box03 .box .desc p {
     width: 83%;
-    height: 85%;
+    height: 28vh;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -914,7 +913,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box04 .box .desc p {
     width: 83%;
-    height: 85%;
+    height: 28vh;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -1014,7 +1013,7 @@ body::-webkit-scrollbar {
 
 .sec3 .site__wrap .site__box05 .box .desc p {
     width: 83%;
-    height: 85%;
+    height: 28vh;
     margin: 3.5vw 0 0 2vw;
     font-family: "jua";
     font-size: 1.2vw;
@@ -1106,18 +1105,17 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box01 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     position: relative;
     top: 13vw;
-    text-align: center;
     font-family: "Luckiest Guy";
     font-size: 9vw;
-    text-align-last: left;
+    text-align: center;
 }
 
 .sec4 .script__box01 p {
-    padding-left: 15vw;
     line-height: 1;
+    text-align: center;
 }
 
 .sec4 .script__box01 p:nth-child(1) em {
@@ -1138,12 +1136,12 @@ body::-webkit-scrollbar {
         -ms-user-select: none;
             user-select: none;
     z-index: -1;
-    left: 70%;
+    left: 49%;
     top: 35%;
   }
   .confetti__item {
     display: inline-block;
-    font-size: 5rem;
+    font-size: 3rem;
     position: absolute;
   }
 
@@ -1219,7 +1217,7 @@ body::-webkit-scrollbar {
 
 .sec4 .script__box02 {
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     top: 10vw;
     position: relative;
     display: flex;
@@ -1270,6 +1268,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
+    height: 30vh;
 }
 
 .sec4 .script__box02 .descbox .btn {
@@ -1332,6 +1331,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
+    height: 30vh;
 }
 
 .sec4 .script__box03 .descbox .btn {
@@ -1394,6 +1394,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
+     height: 30vh;
 }
 
 .sec4 .script__box04 .descbox .btn {
@@ -1456,6 +1457,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
+     height: 30vh;
 }
 
 .sec4 .script__box05 .descbox .btn {
@@ -1518,6 +1520,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
+     height: 30vh;
 }
 
 .sec4 .script__box06 .descbox .btn {
@@ -1580,6 +1583,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
+     height: 30vh;
 }
 
 .sec4 .script__box07 .descbox .btn {
@@ -1642,6 +1646,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
+     height: 30vh;
 }
 
 .sec4 .script__box08 .descbox .btn {
@@ -1659,6 +1664,68 @@ body::-webkit-scrollbar {
 }
 
 /* //scriptbox08 */
+
+.sec4 .script__box09 {
+    width: 100vw;
+    height: 100vh;
+    top: 10vw;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.sec4 .script__box09 .iframebox {
+    width: 70%;
+    height: 35vw;
+}
+
+.sec4 .script__box09 .iframebox iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    outline: 2px solid #000;
+    box-shadow: 15px 15px #000;
+}
+
+.sec4 .script__box09 .descbox {
+    width: 23%;
+    height: 35vw;
+    outline: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 15px 15px #000;
+    background-color: #F9F0DC;
+}
+
+.sec4 .script__box09 .descbox h3 {
+    font-family: "Geostar";
+    text-align: center;
+    font-size: 2.2vw;
+    margin-top: 3vw;
+}
+
+.sec4 .script__box09 .descbox p {
+    font-family: "jua";
+    font-size: 1.3vw;
+    margin-top: 1vw;
+    padding: 2.5vw 2.5vw;
+    height: 30vh;
+}
+
+.sec4 .script__box09 .descbox .btn {
+    margin-top: 2vw;
+    text-align: center;
+}
+
+.sec4 .script__box09 .descbox a {
+    font-family: "Geostar";
+    font-size: 1.8vw;
+    padding: 1vw 1.3vw;
+    color: #fff;
+    border-radius: 250px;
+    background: #000;
+}
+/* //scriptbox09 */
 
 
 

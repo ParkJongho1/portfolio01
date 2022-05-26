@@ -5,9 +5,9 @@ body
 }
 
 #loading {
-    background: #DA22FF;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #9733EE, #DA22FF);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #9733EE, #DA22FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #442d7c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #442d7c, #442d7c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #442d7c, #442d7c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-radius: 100%;
     height: 100vw;
     width: 100vw;
