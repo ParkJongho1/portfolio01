@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
 .darkbrown {
     background-color: #cfbd8e;
 }
+
 .orange {
     background-color: #FBBF2D;
 }
@@ -136,6 +137,7 @@ body::-webkit-scrollbar {
     margin-top: 10vw;
     position: relative;
 }
+
 #section06 {
     width: 100%;
 }
@@ -164,6 +166,7 @@ body::-webkit-scrollbar {
     transform: translateY(-1000px);
     /* opacity: 0; */
 }
+
 .sec1 .title .t2 {
     color: #ffdc81;
     -webkit-text-stroke: 3px #000;
@@ -213,8 +216,8 @@ body::-webkit-scrollbar {
     color: #fb450c;
     -webkit-text-stroke: 2px #000;
     margin-bottom: 3vw;
-    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 
-    0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black,
+        0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
 }
 
 .sec2 .about .about__info01 {
@@ -225,14 +228,14 @@ body::-webkit-scrollbar {
 
 .sec2 .about .about__info01 span {
     color: #fff;
-    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 
-    0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black,
+        0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
 }
 
 .sec2 .about .about__info01 em {
     color: #f99fb7;
-    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 
-    0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black,
+        0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
 }
 
 .sec2 .about .about__info01 .aboutlogo {
@@ -271,14 +274,14 @@ body::-webkit-scrollbar {
 
 .sec2 .about .about__info02 span {
     color: #ac9bc6;
-    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 
-    0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black,
+        0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
 }
 
 .sec2 .about .about__info02 em {
     color: #fff;
-    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 
-    0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black,
+        0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
 }
 
 .sec2 .about .about__info02 .aboutlogo {
@@ -323,9 +326,9 @@ body::-webkit-scrollbar {
             background-clip: text;
     color: transparent; */
     color: #ffd428;
-    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black, 
-    0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
-   
+    text-shadow: 0 0.1em 20px black, 0.05em -0.03em 0 black, 0.05em 0.005em 0 black, 0em 0.08em 0 black,
+        0.05em 0.08em 0 black, 0px -0.03em 0 black, -0.03em -0.03em 0 black, -0.03em 0.08em 0 black, -0.03em 0 0 black;
+
 }
 
 .sec2 .about .about__info03 .aboutlogo {
@@ -1136,21 +1139,23 @@ body::-webkit-scrollbar {
 .sec4 .script__box01 p:nth-child(3) em {
     color: #ff450b;
 }
+
 .confetti {
     position: absolute;
     -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     z-index: -1;
     left: 49%;
     top: 35%;
-  }
-  .confetti__item {
+}
+
+.confetti__item {
     display: inline-block;
     font-size: 3rem;
     position: absolute;
-  }
+}
 
 .sec4 .script__box01 p:nth-child(1) em,
 .sec4 .script__box01 p:nth-child(2) em,
@@ -1401,7 +1406,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 15vw;
+    height: 15vw;
 }
 
 .sec4 .script__box04 .descbox .btn {
@@ -1464,7 +1469,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 15vw;
+    height: 15vw;
 }
 
 .sec4 .script__box05 .descbox .btn {
@@ -1527,7 +1532,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 15vw;
+    height: 15vw;
 }
 
 .sec4 .script__box06 .descbox .btn {
@@ -1590,7 +1595,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 15vw;
+    height: 15vw;
 }
 
 .sec4 .script__box07 .descbox .btn {
@@ -1653,7 +1658,7 @@ body::-webkit-scrollbar {
     font-size: 1.3vw;
     margin-top: 1vw;
     padding: 2.5vw 2.5vw;
-     height: 15vw;
+    height: 15vw;
 }
 
 .sec4 .script__box08 .descbox .btn {
@@ -1732,6 +1737,7 @@ body::-webkit-scrollbar {
     border-radius: 250px;
     background: #000;
 }
+
 /* //scriptbox09 */
 
 
@@ -1828,6 +1834,7 @@ body::-webkit-scrollbar {
     margin-right: 2vw;
 
 }
+
 /* section05 rolling */
 
 /* studybox */
@@ -1840,6 +1847,7 @@ body::-webkit-scrollbar {
     font-size: 20px;
     margin: 0;
 }
+
 .studybox {
     height: 100%;
     width: 100%;
@@ -1853,37 +1861,202 @@ body::-webkit-scrollbar {
     position: relative;
     font-size: 0;
     perspective: 500px;
-  }
-  
-  .studybox.active {
+}
+
+.studybox.active {
     cursor: grabbing;
     cursor: -webkit-grabbing;
-  }
-  
-  .study__box {
-    width: 35vw;
+}
+
+.study__box {
+    width: 32vw;
     height: 35vw;
     display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    flex-direction: column;
     border: 2px solid #000;
     border-radius: 40px;
     box-shadow: 12px 12px #000;
     margin: 0 2vw;
-    
-  }
-  .sb01 {
+    text-transform: uppercase;
+    font-weight: bold;
+
+}
+
+.sb01 {
     background-image: linear-gradient(to top, #a18cd1, #fbc2eb);
-  }
-  .sb02 {
+}
+.sb01 .studyimg {
+    width: 100%;
+    height: 50%;
+    padding: 1.5vw 3.5vw;
+}
+.sb01 .studyimg .img01 {
+    width: 100%;
+    height: 100%;
+}
+
+.sb01 .studydesc h3 {
+    width: 100%;
+    height: 50%;
+    font-size: 3vw;
+    font-family: "Luckiest Guy";
+    text-align: center;
+    color: #000;
+}
+.sb01 .studydesc p {
+    width: 100%;
+    height: 50%;
+    font-size: 1vw;
+    font-family: "jua";
+    text-align: center;
+    color: #000;
+    padding: 0.5vw 3vw;
+}
+.sb01 .studydesc .btn {
+    width: 100%;
+    text-align: center;  
+    margin-top: 0.7vw;  
+}
+.sb01 .studydesc .btn a {
+    font-family: "Luckiest Guy";
+    font-size: 1.5vw;
+    padding: 0.8vw 1.2vw;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 40px;
+}
+
+.sb02 {
     background-image: linear-gradient(to top, #ff9a9e, #fad0c4);
-  }
-  .sb03 {
+}
+.sb02 .studyimg {
+    width: 100%;
+    height: 50%;
+    padding: 1.5vw 3.5vw;
+}
+.sb02 .studyimg .img02 {
+    width: 100%;
+    height: 100%;
+}
+
+.sb02 .studydesc h3 {
+    width: 100%;
+    height: 50%;
+    font-size: 3vw;
+    font-family: "Luckiest Guy";
+    text-align: center;
+    color: #000;
+}
+.sb02 .studydesc p {
+    width: 100%;
+    height: 50%;
+    font-size: 1vw;
+    font-family: "jua";
+    text-align: center;
+    color: #000;
+    padding: 0.5vw 3vw;
+}
+.sb02 .studydesc .btn {
+    width: 100%;
+    text-align: center;  
+    margin-top: 0.7vw;  
+}
+.sb02 .studydesc .btn a {
+    font-family: "Luckiest Guy";
+    font-size: 1.5vw;
+    padding: 0.8vw 1.2vw;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 40px;
+}
+.sb03 {
     background-image: linear-gradient(to top, #84fab0, #8fd3f4);
-  }
-  .sb04 {
+}
+.sb03 .studyimg {
+    width: 100%;
+    height: 50%;
+    padding: 1.5vw 3.5vw;
+}
+.sb03 .studyimg .img03 {
+    width: 100%;
+    height: 100%;
+}
+
+.sb03 .studydesc h3 {
+    width: 100%;
+    height: 50%;
+    font-size: 3vw;
+    font-family: "Luckiest Guy";
+    text-align: center;
+    color: #000;
+}
+.sb03 .studydesc p {
+    width: 100%;
+    height: 50%;
+    font-size: 1vw;
+    font-family: "jua";
+    text-align: center;
+    color: #000;
+    padding: 0.5vw 3vw;
+}
+.sb03 .studydesc .btn {
+    width: 100%;
+    text-align: center;  
+    margin-top: 0.7vw;  
+}
+.sb03 .studydesc .btn a {
+    font-family: "Luckiest Guy";
+    font-size: 1.5vw;
+    padding: 0.8vw 1.2vw;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 40px;
+}
+.sb04 {
     background-image: linear-gradient(to top, #d299c2, #fef9d7);
-  }
+}
+
+.sb04 .studyimg {
+    width: 100%;
+    height: 50%;
+    padding: 1.5vw 3.5vw;
+}
+.sb04 .studyimg .img04 {
+    width: 100%;
+    height: 100%;
+}
+
+.sb04 .studydesc h3 {
+    width: 100%;
+    height: 50%;
+    font-size: 3vw;
+    font-family: "Luckiest Guy";
+    text-align: center;
+    color: #000;
+}
+.sb04 .studydesc p {
+    width: 100%;
+    height: 50%;
+    font-size: 1vw;
+    font-family: "jua";
+    text-align: center;
+    color: #000;
+    padding: 0.5vw 3vw;
+}
+.sb04 .studydesc .btn {
+    width: 100%;
+    text-align: center;  
+    margin-top: 0.7vw;  
+}
+.sb04 .studydesc .btn a {
+    font-family: "Luckiest Guy";
+    font-size: 1.5vw;
+    padding: 0.8vw 1.2vw;
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 40px;
+}
+
 
 /* section05 */
 
@@ -1891,6 +2064,7 @@ body::-webkit-scrollbar {
     width: 100%;
     height: 100vh;
 }
+
 .sec6 .contact {
     width: 100%;
     padding-top: 10vw;
@@ -1899,17 +2073,20 @@ body::-webkit-scrollbar {
     color: #fff;
     font-weight: 300;
 }
+
 .sec6 .contact p {
     color: #FB450C;
     -webkit-text-stroke: 3px #000;
     font-size: 9vw;
     line-height: 1;
 }
+
 .sec6 .contact em {
     color: #fff;
     -webkit-text-stroke: 3px #000;
     font-size: 8vw;
 }
+
 .sec6 .contact__logo {
     width: 60%;
     margin: 0 auto;
@@ -1917,6 +2094,7 @@ body::-webkit-scrollbar {
     justify-content: space-around;
 
 }
+
 .sec6 .contact__logo .logobox01 {
     width: 10vw;
     height: 10vw;
@@ -1926,6 +2104,7 @@ body::-webkit-scrollbar {
     box-shadow: 12px 12px #000;
     position: relative;
 }
+
 .sec6 .contact__logo .logobox02 {
     width: 10vw;
     height: 10vw;
@@ -1935,6 +2114,7 @@ body::-webkit-scrollbar {
     box-shadow: 12px 12px #000;
     position: relative;
 }
+
 .sec6 .contact__logo .logobox03 {
     width: 10vw;
     height: 10vw;
@@ -1944,6 +2124,7 @@ body::-webkit-scrollbar {
     box-shadow: 12px 12px #000;
     position: relative;
 }
+
 .sec6 .contact__logo .logobox04 {
     width: 10vw;
     height: 10vw;
@@ -1953,6 +2134,7 @@ body::-webkit-scrollbar {
     box-shadow: 12px 12px #000;
     position: relative;
 }
+
 .sec6 .contact__logo .logobox01 img,
 .sec6 .contact__logo .logobox02 img,
 .sec6 .contact__logo .logobox03 img,
@@ -1964,6 +2146,7 @@ body::-webkit-scrollbar {
     width: 3vw;
     height: 3vw;
 }
+
 /* section06 */
 
 
@@ -2051,7 +2234,7 @@ body::-webkit-scrollbar {
     .sec3 .site__wrap .site__box01 .box .desc p,
     .sec3 .site__wrap .site__box02 .box .desc p,
     .sec3 .site__wrap .site__box03 .box .desc p,
-    .sec3 .site__wrap .site__box04 .box .desc p, 
+    .sec3 .site__wrap .site__box04 .box .desc p,
     .sec3 .site__wrap .site__box05 .box .desc p {
         width: 82%;
         height: 82%;
