@@ -97,7 +97,7 @@ body::-webkit-scrollbar {
     background: #2c1366;
 }
 
-.scrollTop {
+/* .scrollTop {
     position: fixed;
     left: 20px;
     bottom: 20px;
@@ -108,7 +108,7 @@ body::-webkit-scrollbar {
     text-align: center;
     line-height: 50px;
     z-index: 30000;
-}
+} */
 
 #section01 {
     width: 100%;
