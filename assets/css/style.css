@@ -2393,6 +2393,10 @@ body::-webkit-scrollbar {
     .sec3 .site__wrap .site__box05 .box .desc .btns .left span {
         font-size: 2vw;
     }
+    .study__box {
+        width: 40vw;
+        height: 45vw;
+    }
 }
 
 @media (max-width: 478px) {
