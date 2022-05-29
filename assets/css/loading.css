@@ -1,4 +1,4 @@
-/* body
+body
 {
   margin:0;
   padding:0
@@ -16,7 +16,7 @@
     display: block;
     transform-origin: center center;
     transition: all 1.2s ease-in;
-} */
+}
 
 
 /*-------------------------
@@ -245,6 +245,7 @@
   width: 100%;
   height: 100vh;
   background: #442d7c;
+  transform: scale(1.5);
 
 }  
 .progress .progress-text {
@@ -255,6 +256,6 @@
           transform: translate(-50%, -50%);
   font-size: 4vw;
   color: #ffdc81;
-  font-family: "Oi";
+  font-family: "SuseongHyejeong";
   font-weight: 300;
 }
